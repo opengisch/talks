@@ -1,0 +1,23 @@
+body {
+  font-family: "futura-pt", 'Helvetica';
+  background-color: #80CC28;
+  color:#fff;
+}
+
+body.with_logo {
+    background-image: url("images/copyrighted/openGIS-logo-round-green-no-text-bg-cut-white.svg");
+}
+
+div.green_text{
+    color: #80CC28;
+}
+
+em, a {
+  color:#2880cc;
+}
+
+a {
+  background: #2880cc;
+  color:#fff;
+}
+
