@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:http="http://www.w3.org/1999/xhtml"><head><title></title><meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="stylesheet" href="http://use.typekit.net/c/77b798/1w;futura-pt,2,SHB:N:n3,Y5K:N:n4,SH5:N:n7/d?3bb2a6e53c9684ffdc9a9af1195b2a62d69a4fbfbedecc7b6a1ca4a2f46bef6bb5fad363ffcea1fdab03b68cc2a9a64877946bd23d5b7d0eca4a113c42f2bbe7388d1a69a059b98f0f">
+    <link rel="stylesheet" href="opengisch-big.css">
+    <script type='text/javascript' src="big.js"></script></head><body>
+<div><img src="images/copyrighted/openGIS-logo.svg"><em>Anatomy of a Web Map</em></div>
+<div>3 exceptions to yesterday's simplified story!</div>
+<div>Exception #1: Can’t interact with many features on a raster. BUT <a href="https://www.mapbox.com/blog/how-interactivity-works-utfgrid/">UTFGrid</a> (Mapbox invention) makes it possible.</div>
+<div style="color: black"><img src="images/utfgrid.png">UTFGrid is an invisble tile layer made up of arbitrary letters which are indexes into the clickable data</div>
+<div>DEMO <a href="https://platform.openquake.org/grv/">Global risk viewer</a></div>
+<div>DEMO <a href="https://platform.openquake.org/hazus/">Hazus viewer</a></div>
+<div>DEMO <a href="https://platform.openquake.org/hrde/">Hazard explorerr</a></div>
+
+<div>Exception #2: Tiles are always rasters <em>except</em> when they're not!</div>
+<div><img src="images/vector_tiles.png"><em>vector tiles!</em> What are they?</div>
+<div><a href="https://www.mapbox.com/blog/vector-tiles/">vector tiles</a>: they are an alternative to a database that makes raster tiles.</div>
+<div><em>Raster:</em> ask for data to fit into tile - burned</div>
+<div><em>Vector:</em> already have vector data sliced up in the way that I will make raster tiles</div>
+<div>So someone has to go through and chop up that data, like <a href="https://www.mapbox.com/blog/vector-tiles/">MapBox</a> or yourself</div>
+<div>Advantages:</div>
+<div><em>Styling</em> - can be styled when requested, allowing for many map styles on global data</div>
+<div><em>Size</em> - really small, enabling global high resolution maps, fast map loads, and efficient caching</div>
+<div><em>Dynamicity</em> - client side filtering/querying and zoom dependent styling</div>
+<div><em>Scalability</em> - WebGL works on the graphic card</div>
+<div>Disdvantages:</div>
+<div><em>WebGL</em> - not every browser has full support yet</div>
+<div><em>Complexity</em> - still a bit complex to use</div>
+
+<div>Ecuador sample data:<br/>
+1015 districts (admin level 2)<br/>
+33 attributes (per district)<br/>
+500,000 vertices<br/>
+<br/>
+Loading from local GeoJson: 1.62 s<br/>
+Loading protocol buffer from TileLive: 161 ms
+</div>
+
+<div>DEMO <a href="https://platform-dev-mb.openquake.org/irv/">Integrated risk viewer</a></div>
+
+<div>Exception #3: <a href="http://d3js.org">D3</a> exists outside the world of tiles</div>
+<div>you can’t easily make road map in D3 <em>BUT</em> can do things that are clumsy in slippy maps like...</div>
+<div style="color: black"><img src="images/d3-examples/d3_choropleth.png">choropleth maps</div>
+<div style="color: black"><img src="images/d3-examples/d3_cartogram.png">cartograms</div>
+<div style="color: black"><img src="images/d3-examples/projection_transitions2.png">different map projections (in the browser!)</div>
+<div style="color: black"><img src="images/d3-examples/geo.png">D3</div>
+<div style="color: black"><img src="images/d3-examples/racial-divide.png">IS</div>
+<div style="color: black"><img src="images/d3-examples/topojson.png">IN</div>
+<div style="color: black"><img src="images/d3-examples/drought.png">SANE</div>
+<div>Very powerful, but steepish learning curve</div>
+
+<div>Going big<br><a href="http://postgis.net">Postgis</a><br/><a href="http://geoserver.org/">Geoserver</a><br/><a href="http://geonode.org/">Geonode</a><br/>many other <a href="http://www.osgeo.org/">OSGeo projects</a></div>
+<div><em>Postgis</em> is a spatial database extender for PostgreSQL object-relational database.</div>
+<div><em>Geoserver</em> is an open source server for sharing geospatial data</div>
+<div><em>Geonode</em> is an Open Source Geospatial Content Management System</div>
+
+<div>DEMO <a href="https://platform.openquake.org/">Openquake platform</a></div>
+<div><em>Questions?</em><br/><br/>Now or later<br/><br/>
+    <a href="http://twitter.com/mbernasocchi">@mbernasocchi</a> <a href="http://twitter.com/_mkuhn">@_mkuhn</a>
+    <br/>[<a href="mailto:marco@opengis.ch">marco</a> | <a href="mailto:matthias@opengis.ch">matthias</a>]@opengis.ch
+</div>
