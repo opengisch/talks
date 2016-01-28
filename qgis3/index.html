@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns:http="http://www.w3.org/1999/xhtml"><head><title></title><meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="stylesheet" href="http://use.typekit.net/c/77b798/1w;futura-pt,2,SHB:N:n3,Y5K:N:n4,SH5:N:n7/d?3bb2a6e53c9684ffdc9a9af1195b2a62d69a4fbfbedecc7b6a1ca4a2f46bef6bb5fad363ffcea1fdab03b68cc2a9a64877946bd23d5b7d0eca4a113c42f2bbe7388d1a69a059b98f0f">
+    <link rel="stylesheet" href="../opengisch-big.css">
+    <link rel="stylesheet" href="../opengisch-big-bright.css">
+    <script type='text/javascript' src="../big.js"></script></head><body>
+
+<div><img src="../images/copyrighted/openGIS-logo.svg"><em class="title">QGIS 3</em></div>
+
+<div><em>Why QGIS 3?</em></div>
+
+<div>Because <em>the world</em> around QGIS <em>moves on</em></div>
+
+<div><img src="images/Python-logo-notext.svg" class="unobtrusive"><em>Python 3</em><br>Currently QGIS uses Python 2<br><a href="https://hg.python.org/peps/rev/76d43e52d978">End Of Life: 2020</a></div>
+
+<div><img src="images/qt-logo.svg" class="unobtrusive"><em>Qt 5</em><br>Currently QGIS uses Qt 4.8<br><a href="http://blog.qt.io/blog/2014/11/27/qt-4-8-x-support-to-be-extended-for-another-year/">End Of Life: December 2015</a></div>
+
+<div>Because the <em>QGIS developers are perfect</em>, <a href="https://github.com/qgis/qgis3.0_api/issues">except</a> when they are not</div>
+
+<div>So... What are the <em>implications</em>?</div>
+
+<div><img src="images/examples_chartthemes_light.png">
+  <em>Features</em><br>
+</div>
+
+<div><img src="images/non-latin-chars.png">
+  <em>Bugfixes</em>
+</div>
+
+<div>When converting colors to/from premultiplied alpha format <em>QColor::qPremultiply</em> and <em>QColor::qUnpremultiply</em> should give a big speed boost over our custom implementations<br><em>Got it?</em></div>
+
+<div><em>Compatibility</em>
+  <ul>
+    <li><em>Mac OS X</em> - About to lose Qt4 support
+    <li><em>Debian</em> - Will lose Qt4 support next year
+    <li><em>Next Windows??</em> - You never know...
+  </ul>
+</div>
+
+<div><em>Wow!</em><br>That sounds great, where can I get it?</div>
+
+<div><em>Wait!</em><br>What you should know first</div>
+
+<div><img src="images/scared.jpg"><em>It will break all your plugins</em></div>
+
+<div><img src="images/api.png">What's an <em>API</em> and why is it important?</div>
+
+<div>The API is the <em>common language</em> for plugins and QGIS.<br>Whenever the language is changed, <em>plugins need to be adjusted</em>.</div>
+
+<div>You don't want to revisit plugins too often.</div>
+
+<div>API changes are <em>best served bundled</em></div>
+
+<div class="white"><img src="images/work.jpg">What <em>has already been done?</em></div>
+
+<div><em>Qt5 support</em><br>Non-python parts done for the QField project</div>
+
+<div><em>Python 3</em><br>Some work started at the last developer meeting</div>
+
+<div class="white"><img src="images/work2.jpg">What's <em>left to be done?</em></div>
+
+<div><em>Migration</em> of python code in core</div>
+
+<div>Implement the planned <em>API changes</em>.</div>
+
+<div>Provide <em>packages</em><br> Most important<br><img src="images/osgeo4w-logo.png"></div>
+
+<div><img src="images/kinder_sparen.jpg">Help us to <em>fund the work</em></div>
+
+<div><em>Questions?</em><br/><br/>Now or later<br/><br/>
+    <a href="http://twitter.com/_mkuhn">@_mkuhn</a><br/><a href="mailto:matthias@opengis.ch">matthias@opengis.ch</a></div>
