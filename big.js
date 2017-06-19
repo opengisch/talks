@@ -34,8 +34,8 @@ window.onload = function () {
         go(++cur % (s.length));
     };
     document.onkeydown = function (e) {
-        (e.which === 39) && go(Math.min(s.length - 1, ++cur));
-        (e.which === 37) && go(Math.max(0, --cur));
+        (e.which === 39 || e.which == 34) && go(Math.min(s.length - 1, ++cur)); // 39 is right arrow, 34 is page down 
+        (e.which === 37 || e.which == 33) && go(Math.max(0, --cur)); // 37 is left arrow, 33 is page up
     };
     function parse_hash() {
         return Math.max(Math.min(
