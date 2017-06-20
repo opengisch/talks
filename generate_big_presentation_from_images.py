@@ -37,7 +37,7 @@ except IndexError:
     HTML_DIRECTORY = './images/'
     print ('NOTICE: no argument found, using default HTML_DIRECTORY: %s' % HTML_DIRECTORY)
 
-HTML_TEMPLATE = '<div class="footer_title"><img src="%s">%s</div>' % (
+HTML_TEMPLATE = '<div><img src="%s"><p class="footer_title">%s</p></div>' % (
                 HTML_DIRECTORY + '%s', '%s')
 
 
@@ -55,11 +55,12 @@ def generate_title(filename):
         title = title.split('-')[1]
     except IndexError:
         pass
-    return title
+    return title.capitalize()
 
 
 def main():
-    for filename in os.listdir(DIRECTORY):
+    dirs = sorted(os.listdir(DIRECTORY))
+    for filename in dirs:
         if is_allowed(filename):
             title = generate_title(filename)
             html = HTML_TEMPLATE % (filename, title)

@@ -44,5 +44,9 @@ div {
   padding: 0 50px;
 }
 video {
-    margin: 20px auto   ;
+    margin: 20px auto;
+}
+
+.footer_title{
+    margin-top: 75%;
 }
