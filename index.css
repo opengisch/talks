@@ -5,5 +5,5 @@ html {
 body.with_logo{ 
   margin: 20px;
   padding: 20px;
-  background-position-y: 0;
+  background-position-y:  100%;
 }
