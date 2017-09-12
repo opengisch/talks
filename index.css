@@ -2,7 +2,7 @@
 html {
   background: white;
 }
-body{ 
+body.with_logo{ 
   margin: 20px;
   padding 20px;
   height:100%;
