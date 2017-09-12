@@ -1,3 +1,10 @@
 @import url("opengisch-big-bright.css");
-
-body{ margin-left: 20px;}
+html {
+  background: white;
+}
+body{ 
+  margin: 20px;
+  padding 20px;
+  height:100%;
+  background-position-y: 0;
+}
