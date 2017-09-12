@@ -18,6 +18,9 @@ body.no_logo {
     background-image:none;
 }
 
+body.normal_spacing {
+  letter-spacing: normal;
+}
 
 h1, h2, h3, p {
   margin:0;
