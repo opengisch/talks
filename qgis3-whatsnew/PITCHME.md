@@ -63,7 +63,7 @@ Biografie:
    },
    {
     "data":[38,57,56,63,68,68,76,80,79,85,87,86,77,80,76],
-    "label":"Herkömmliches GIS","borderColor":"rgba(4,92,183,1), "backgroundColor":"rgba(4,92,138,.2)"
+    "label":"Herkömmliches GIS","borderColor":"rgba(4,92,183,1)", "backgroundColor":"rgba(4,92,138,.2)"
    }
   ]
  },
@@ -91,7 +91,7 @@ Biografie:
    },
    {
     "data":[13,17,30,26,19,53,38,38,50,41,62,43,47,50],
-    "label":"Herkömmliches GIS","borderColor":"rgba(4,92,183,1), "backgroundColor":"rgba(4,92,138,.2)"
+    "label":"Herkömmliches GIS","borderColor":"rgba(4,92,183,1)", "backgroundColor":"rgba(4,92,138,.2)"
    }
   ]
  },
