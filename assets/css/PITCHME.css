@@ -79,6 +79,7 @@ span.aside {
     letter-spacing: -0.03em !important;
     font-family: "Source Sans Pro", Helvetica, sans-serif !important;
     font-size: 2.5em;
+    text-transform: uppercase;
 }
 
 .title-top-center {
@@ -92,4 +93,5 @@ span.aside {
     letter-spacing: -0.03em !important;
     font-family: "Source Sans Pro", Helvetica, sans-serif !important;
     font-size: 2.5em !important;
+    text-transform: uppercase;
 }
