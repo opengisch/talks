@@ -130,12 +130,10 @@ rm -rf src/server
 
 # Datenerfassung - Digitalisieren
 
----
+---?image=assets/images/saveasimage.png&size=40%
 @title[Als Bild Speichern]
 
 ## Als Bild Speichern
-
-![save as image](assets/images/saveasimage.png)
 
 ---
 @title[Retina Support]
