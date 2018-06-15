@@ -135,7 +135,7 @@ rm -rf src/server
 
 @css[title-top-center](Als Bild Speichern)
 
----?image=assets/images/scharf.jpg&size=30%
+---?image=assets/images/scharf.jpg&size=30% 100%
 @title[Retina Support]
 
 @css[title-top-center](Retina/HiDPI Unterstützung)
