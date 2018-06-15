@@ -283,16 +283,16 @@ Im Zentrum steht die Karte
 
 **Deckkraft <-> Alpha**
 
- * Im Normalfall Deckkraft
- * Skala in `%`, intern von 0-1
+- Im Normalfall Deckkraft
+- Skala in `%`, intern von 0-1
 
 **Rotation**
 
- * Immer im Uhrzeigersinn
+- Immer im Uhrzeigersinn
 
 **Skala**
 
- * 1:25'000 oder 25'000
+- 1:25'000 oder 25'000
 
 @divend
 
