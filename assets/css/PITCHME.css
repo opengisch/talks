@@ -73,9 +73,9 @@ span.aside {
     top: 70px;
     right: 10px;
     margin: 0 0 20px 0 !important;
-    color: #eee !important;
+    color: #333 !important;
     font-weight: normal !important;
-    line-height: 1.2 !important;
+    line-height: 1.8 !important;
     letter-spacing: -0.03em !important;
     font-family: "Montserrat", Impact, sans-serif !important;
 }
