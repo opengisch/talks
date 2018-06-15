@@ -146,14 +146,10 @@ Biografie:
 
 ![](assets/images/verpacken.jpg)
 
----
-@title[Integrierte Suche]
+---?image=assets/image/locator.gif&size=50%&position=bottom
+@title[Locator]
 
-# Integrierte <span class="green">Suche</span>
-
-## Locator Bar
-
-
+@css[title-top-center](Integrierte <span class="green">Suche</span>)
 
 ---
 @title[Server]
