@@ -90,12 +90,20 @@ rm -rf src/server
 
 @divend
 
-
-
 ---
 @title[Ausdrücke]
 
 # Ausdrücke
+
+Einige neue Ausdrücke
+
+<div style="font: 1">
+- `atlas_layerid`
+- `atlas_layername`
+- `array_agg`
+- `array(value1, value2, ...)`
+- `array_append(array, value)`
+</div>
 
 ---
 @title[Datenerfassung - Digitalisieren]
