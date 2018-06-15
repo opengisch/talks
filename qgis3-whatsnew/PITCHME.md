@@ -1,4 +1,4 @@
----?image=assets/images/frisch-gestrichen.jpg&size=20% 20%
+---?image=assets/images/frisch-gestrichen.jpg&size=40%
 @title[QGIS 3]
 
 @css[title-top-right](Neu in QGIS 3)
