@@ -211,7 +211,10 @@ Damit die Bilder gestochen scharf sind
 
 ---
 @title[Mehrere Karten nebeneinander]
-![](multicanvas.jpg)
+
+# Mehrere Karten nebeneinander
+
+![](assets/images/multicanvas.jpg)
 
 
 ---
