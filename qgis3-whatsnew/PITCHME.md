@@ -210,9 +210,6 @@ Damit die Bilder gestochen scharf sind
 @css[title-top-center](Als Bild Speichern)
 
 ---
-#title[]
-
----
 @title[Mehrere Karten nebeneinander]
 ![](multicanvas.jpg)
 
