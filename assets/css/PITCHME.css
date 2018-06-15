@@ -84,7 +84,7 @@ span.aside {
 
 .title-top-center {
     position: fixed;
-    top: 70px;
+    top: 20px;
     margin: 0 0 20px 0 !important;
     color: #222 !important;
     font-weight: 600 !important;
@@ -93,4 +93,6 @@ span.aside {
     font-family: "Source Sans Pro", Helvetica, sans-serif !important;
     font-size: 2.5em !important;
     text-transform: uppercase;
+    left: 0;
+    right: 0;
 }
