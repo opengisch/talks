@@ -150,3 +150,10 @@ Im Zentrum steht die Karte
 
  * 1:25'000 oder 25'000
 
+---
+
+@title[Live layers]
+
+# Live layers
+
+![live layers](assets/images/livelayer.gif)
