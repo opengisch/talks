@@ -66,6 +66,33 @@ rm -rf src/server
 `
 
 ---
+@title[Server]
+
+# Server
+
+@div[left-50]
+
+![server codesprint](assets/images/servercodesprint.jpg)
+
+@divend
+
+@div[right-50]
+
+<br><br>
+
+@ul
+- Modularisierung
+- Neuschreiben des Projektcodes
+- Tests
+- Performance Tests
+- OGC Compliance Tests
+@ulend
+
+@divend
+
+
+
+---
 @title[Ausdrücke]
 
 # Ausdrücke
