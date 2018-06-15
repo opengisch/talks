@@ -61,9 +61,9 @@ Biografie:
 # Server
 
 @ul
-```bash
+`
 rm -rf src/server
-```
+`
 
 ---
 @title[Ausdrücke]
