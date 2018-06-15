@@ -73,22 +73,22 @@ span.aside {
     top: 70px;
     right: 10px;
     margin: 0 0 60px 0 !important;
-    color: #e49436 !important;
-    font-weight: normal !important;
+    color: #222 !important;
+    font-weight: 600 !important;
     line-height: 1.2 !important;
     letter-spacing: -0.03em !important;
-    font-family: "Montserrat", Impact, sans-serif !important;
-    font-size: 1.55em;
+    font-family: "Source Sans Pro", Helvetica, sans-serif !important;
+    font-size: 2.5em;
 }
 
 .title-top-center {
     position: fixed;
     top: 70px;
     margin: 0 0 60px 0 !important;
-    color: #e49436 !important;
-    font-weight: normal !important;
+    color: #222 !important;
+    font-weight: 600 !important;
     line-height: 1.2 !important;
     letter-spacing: -0.03em !important;
-    font-family: "Montserrat", Impact, sans-serif !important;
-    font-size: 1.55em;
+    font-family: "Source Sans Pro", Helvetica, sans-serif !important;
+    font-size: 2.5em;
 }
