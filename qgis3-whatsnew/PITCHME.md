@@ -1,7 +1,7 @@
 ---?image=assets/images/frisch-gestrichen.jpg&size=20% 20%
 @title[QGIS 3]
 
-# Neu in QGIS 3
+@css[title-top-right](Neu in QGIS 3)
 
 Note:
 
