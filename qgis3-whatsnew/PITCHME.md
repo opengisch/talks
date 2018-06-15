@@ -122,6 +122,12 @@ Biografie:
 @divend
 
 ---
+@title[Los]
+# Und <span class="green">los</span> geht es
+
+![](assets/images/start.jpg)
+
+---
 @title[Geschwindigkeit]
 # Alles ist <span class="green">schneller</span>
 
