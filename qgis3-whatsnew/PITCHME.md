@@ -279,16 +279,16 @@ Im Zentrum steht die Karte
 
 ## Benutzeroberfläche <span class="green">Konsistenz</span>
 
-### Deckkraft <-> Alpha
+Deckkraft <-> Alpha
 
  * Im Normalfall Deckkraft
  * Skala in `%`, intern von 0-1
 
-### Rotation 
+Rotation 
 
  * Immer im Uhrzeigersinn
 
-### Skala
+Skala
 
  * 1:25'000 oder 25'000
 
