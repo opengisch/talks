@@ -1,8 +1,7 @@
+---?image=assets/images/frisch-gestrichen.jpg&size=55% 55%
 @title[QGIS 3]
 
 # Neu in QGIS 3
-
-![frisch gestrichen](assets/images/frisch-gestrichen.jpg)
 
 Note:
 
