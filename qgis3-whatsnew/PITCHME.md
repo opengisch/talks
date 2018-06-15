@@ -133,7 +133,7 @@ rm -rf src/server
 ---
 @title[Als Bild Speichern]
 
-# Als Bild Speichern wurde verbessert
+## Als Bild Speichern
 
 ![save as image](assets/images/saveasimage.png)
 
