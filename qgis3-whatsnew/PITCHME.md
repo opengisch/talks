@@ -61,6 +61,4 @@ Note: Willkommen und so
 
 # Vollbildmodus
 
-Ctrl + Tab
-
 ![fullscreen](assets/images/fullscreen.gif)
