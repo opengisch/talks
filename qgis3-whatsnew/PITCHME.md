@@ -51,7 +51,7 @@ Biografie:
 
 @div[left-50]
 
-![server codesprint](assets/images/ueberladen.jpg)
+![Ueberladen](assets/images/ueberladen.jpg)
 
 @divend
 
@@ -107,8 +107,6 @@ rm -rf src/server
 @divend
 
 @div[right-50]
-
-<br><br>
 
 @ul
 - Modularisierung
