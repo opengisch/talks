@@ -135,12 +135,10 @@ rm -rf src/server
 
 @css[title-top-center](Als Bild Speichern)
 
----
+---?image=assets/images/scharf.jpg&size=30%
 @title[Retina Support]
 
-# Retina / HiDPI Unterstützung
-
-![](scharf.jpg)
+@css[title-top-center](Retina/HiDPI Unterstützung)
 
 Note:
 Damit die Bilder gestochen scharf sind
