@@ -15,8 +15,11 @@ Note: Willkommen und so
 ---
 @title[Warum QGIS 3]
 
+# Warum QGIS 3
+
 ---
 @title[Geschwindigkeit]
+# Geschwindigkeit
 
 ---
 @title[Integrierte Suche]
@@ -28,11 +31,36 @@ Note: Willkommen und so
 ---
 @title[Server]
 
+# Server
+
 ---
 @title[Ausdrücke]
+
+# Ausdrücke
 
 ---
 @title[Datenerfassung - Digitalisieren]
 
+# Datenerfassung - Digitalisieren
+
 ---
-@title[]
+@title[Als Bild Speichern]
+
+# Als Bild Speichern wurde verbessert
+
+---
+@title[Mesh Layers]
+
+# Mesh Layers
+
+![mesh layer](assets/images/mesh.gif)
+
+---
+
+@title[Vollbildmodus]
+
+# Vollbildmodus
+
+Ctrl + Tab
+
+![fullscreen](assets/images/fullscreen.gif)
