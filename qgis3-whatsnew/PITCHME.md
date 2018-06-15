@@ -45,6 +45,62 @@ Biografie:
 ![qgis3](assets/images/qgis3.png)
 
 ---
+@title[Charts]
+
+@css[title-top-right](Man könnte Charts zeigen)
+
+<br>
+
+<canvas data-chart="line">
+<!--
+{
+ "data": {
+  "labels": ["2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018"],
+  "datasets": [
+   {
+    "data":[1,2,3,6,5,5,7,7,10,14,20,28,30,40,42],
+    "label":"Herkömmliches GIS","backgroundColor":"rgba(20,220,220,.8)"
+   },
+   {
+    "data":[38,57,56,63,68,68,76,80,79,85,87,86,77,80,76],
+    "label":"QGIS","backgroundColor":"rgba(220,120,120,.8)"
+   }
+  ]
+ },
+ "options": { "responsive": "true" }
+}
+-->
+</canvas>
+
+---
+@title[Charts]
+
+@css[title-top-right](Die Schweizer Variante)
+
+<br>
+
+<canvas data-chart="line">
+<!--
+{
+ "data": {
+  "labels": ["2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018"],
+  "datasets": [
+   {
+    "data":[26,4,7,9,18,15,25,21,41,49,53],
+    "label":"Herkömmliches GIS","backgroundColor":"rgba(20,220,220,.8)"
+   },
+   {
+    "data":[13,17,30,26,19,53,38,38,50,41,62,43,47,50],
+    "label":"QGIS","backgroundColor":"rgba(220,120,120,.8)"
+   }
+  ]
+ },
+ "options": { "responsive": "true" }
+}
+-->
+</canvas>
+
+---
 @title[Weil es nötig war]
 
 # Weil es <span class="green">nötig</span> war
@@ -108,7 +164,6 @@ rm -rf src/server
 
 # Reorganisation <span class="green">Server</span>
 
-+++
 @div[left-50]
 
 ![server codesprint](assets/images/servercodesprint.jpg)
