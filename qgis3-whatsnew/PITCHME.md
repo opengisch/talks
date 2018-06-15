@@ -277,7 +277,9 @@ Im Zentrum steht die Karte
 
 @title[Benutzeroberfläche - Konsistenz]
 
-## Benutzeroberfläche <span class="green">Konsistenz</span>
+#### Benutzeroberfläche <span class="green">Konsistenz</span>
+
+@div[left-50]
 
 Deckkraft <-> Alpha
 
@@ -291,6 +293,8 @@ Rotation
 Skala
 
  * 1:25'000 oder 25'000
+
+@enddiv
 
 ---
 
