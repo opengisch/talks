@@ -104,6 +104,15 @@ Einige neue Ausdrücke
 <li> `array_agg`
 <li> `array(value1, value2, ...)`
 <li> `array_append(array, value)`
+<li> `array_append(array, value)`
+<li> `array_append(array, value)`
+<li> `array_append(array, value)`
+<li> `array_append(array, value)`
+<li> `array_append(array, value)`
+<li> `array_append(array, value)`
+<li> `array_append(array, value)`
+<li> `array_append(array, value)`
+<li> `array_append(array, value)`
 </ul>
 </div>
 
