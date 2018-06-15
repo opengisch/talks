@@ -67,9 +67,9 @@ Biografie:
 
 ---
 @title[Geschwindigkeit]
-# Geschwindigkeit
+# Alles isch <span class="green">schneller</span>
 
-![](assets/images/speed.jpg)
+![](assets/images/speed.png)
 
 ---
 @title[GeoPackage]
