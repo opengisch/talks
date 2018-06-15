@@ -67,7 +67,7 @@ Biografie:
 
 ---
 @title[Geschwindigkeit]
-# Alles isch <span class="green">schneller</span>
+# Alles ist <span class="green">schneller</span>
 
 ![](assets/images/speed.png)
 
