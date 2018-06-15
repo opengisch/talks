@@ -130,7 +130,7 @@ rm -rf src/server
 
 # Datenerfassung - Digitalisieren
 
----?image=assets/images/saveasimage.png&size=40%
+---?image=assets/images/saveasimage.png&size=30%
 @title[Als Bild Speichern]
 
 @css[title-top-center](Als Bild Speichern)
