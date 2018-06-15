@@ -146,7 +146,7 @@ Biografie:
 
 ![](assets/images/verpacken.jpg)
 
----?image=assets/image/locator.gif&size=50%&position=bottom
+---?image=assets/images/locator.gif&size=50%&position=bottom
 @title[Locator]
 
 @css[title-top-center](Integrierte <span class="green">Suche</span>)
