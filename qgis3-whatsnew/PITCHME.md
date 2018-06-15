@@ -135,7 +135,7 @@ Im Zentrum steht die Karte
 
 @title[Benutzeroberfläche - Konsistenz]
 
-## Konsistenz der Benutzeroberfläche
+## Benutzeroberfläche <span class="green">Konsistenz</span>
 
 ### Deckkraft <-> Alpha
 
