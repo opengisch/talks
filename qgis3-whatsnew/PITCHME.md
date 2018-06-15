@@ -133,7 +133,7 @@ rm -rf src/server
 ---?image=assets/images/saveasimage.png&size=40%
 @title[Als Bild Speichern]
 
-## Als Bild Speichern
+@css[title-top-center](Als Bild Speichern)
 
 ---
 @title[Retina Support]
