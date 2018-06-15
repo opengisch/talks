@@ -95,26 +95,7 @@ rm -rf src/server
 
 # Ausdrücke
 
-Einige neue Ausdrücke
-
-<div style="font-size: 0.1">
-<ul>
-<li> `atlas_layerid`
-<li> `atlas_layername`
-<li> `array_agg`
-<li> `array(value1, value2, ...)`
-<li> `array_append(array, value)`
-<li> `array_append(array, value)`
-<li> `array_append(array, value)`
-<li> `array_append(array, value)`
-<li> `array_append(array, value)`
-<li> `array_append(array, value)`
-<li> `array_append(array, value)`
-<li> `array_append(array, value)`
-<li> `array_append(array, value)`
-<li> `array_append(array, value)`
-</ul>
-</div>
+[Einige neue Ausdrücke](http://changelog.qgis.org/en/qgis/version/3.0.0/#new-expression-functions)
 
 ---
 @title[Datenerfassung - Digitalisieren]
