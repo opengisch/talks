@@ -4,6 +4,7 @@ background-position : bottom 10px right 20px;
 logo : assets/images/openGIS-Text.png
 transition : none
 footnote : "© 2018 OPENGIS.ch"
+charts : true
 
 # If true, the menu will be simplified (i.e. no style menu and no git service menu)
 published: false
