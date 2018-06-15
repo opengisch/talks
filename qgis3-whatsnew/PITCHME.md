@@ -294,7 +294,7 @@ Im Zentrum steht die Karte
 
  * 1:25'000 oder 25'000
 
-@enddiv
+@divend
 
 ---
 
