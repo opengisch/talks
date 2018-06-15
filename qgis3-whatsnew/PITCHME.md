@@ -59,7 +59,7 @@ Biografie:
   "datasets": [
    {
     "data":[1,2,3,6,5,5,7,7,10,14,20,28,30,40,42],
-    "label":"QGIS","backgroundColor":"rgba(20,220,220,.2)"
+    "label":"QGIS","borderColor":"rgba(20,220,220,1)", "backgroundColor":"rgba(20,220,220,.2)"
    },
    {
     "data":[38,57,56,63,68,68,76,80,79,85,87,86,77,80,76],
