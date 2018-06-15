@@ -32,6 +32,7 @@ Biografie:
 ---
 @title[opengis]
 
+#### OPENGIS.ch
 
 ![opengis](assets/images/opengis.png)
 
@@ -157,3 +158,23 @@ Im Zentrum steht die Karte
 # Live layers
 
 ![live layers](assets/images/livelayer.gif)
+
+---
+
+@title[Notify von Postgres]
+
+# NOTIFY
+
+![postgisnotify](assets/images/postgisnotify.jpg)
+
+---
+
+@title[Trace with offset]
+
+## Mit fixem Abstand verfolgen
+
+![trace with offset](assets/images/tracewithoffset.gif)
+
+---
+
+![tracewithoffset](assets/images/tracewithoffset.gif)
