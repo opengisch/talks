@@ -90,7 +90,7 @@ Biografie:
     "label":"QGIS","borderColor":"rgba(4,138,14,1)", "backgroundColor":"rgba(4,138,14,.2)"
    },
    {
-    "data":[13,17,30,26,19,53,38,38,50,41,62,43,47,50],
+    "data":[0,13,17,30,26,19,53,38,38,50,41,62,43,47,50],
     "label":"Herkömmliches GIS","borderColor":"rgba(4,92,183,1)", "backgroundColor":"rgba(4,92,138,.2)"
    }
   ]
