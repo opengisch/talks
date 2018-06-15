@@ -72,6 +72,12 @@ Biografie:
 ![](assets/images/speed.png)
 
 ---
+@title[Stabilität]
+# Alles ist <span class="green">stabiler</span>
+
+![](assets/images/hochseil.png)
+
+---
 @title[GeoPackage]
 
 # Standardformat <span class="green">GeoPackage</span>
@@ -84,6 +90,8 @@ Biografie:
 # Integrierte <span class="green">Suche</span>
 
 ## Locator Bar
+
+
 
 ---
 @title[Server]
