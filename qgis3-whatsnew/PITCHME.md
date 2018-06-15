@@ -130,12 +130,12 @@ rm -rf src/server
 
 # Datenerfassung - Digitalisieren
 
----?image=assets/images/saveasimage.png&size=30%
+---?image=assets/images/saveasimage.png&size=40%&position=bottom
 @title[Als Bild Speichern]
 
 @css[title-top-center](Als Bild Speichern)
 
----?image=assets/images/scharf.jpg&size=30% 100%
+---?image=assets/images/scharf.jpg&size=50%&position=bottom
 @title[Retina Support]
 
 @css[title-top-center](Retina/HiDPI Unterstützung)
