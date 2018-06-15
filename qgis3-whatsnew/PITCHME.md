@@ -127,7 +127,7 @@ Im Zentrum steht die Karte
 
 @title[Alpha]
 
-# Alphakanal direkt in der Farbauswahl
+## Alphakanal direkt in der Farbauswahl
 
 ![alpha](assets/images/alpha.png)
 
