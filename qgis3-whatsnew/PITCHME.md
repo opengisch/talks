@@ -2,9 +2,13 @@
 
 # Was ist neu in QGIS 3
 
-Alles glänzt
+QGIS frisch poliert
 
-Note: Willkommen und so
+Note:
+
+Willkommen.
+Nur zur Info: Das heisst neues in QGIS 3, wir sehen was in QGIS 3.0 und 3.2
+möglich ist. Und in weiteren Releases von QGIS 3 möglich sein wird.
 
 ---
 @title[Wer bin ich?]
@@ -12,10 +16,33 @@ Note: Willkommen und so
 
 ![mkuhn](assets/images/m-kuhn.png)
 
+Note:
+
+Biografie:
+
+* Während der ersten Codezeile QGIS war ich an der Ausbildung zum
+  Applikationsentwickler (Abschluss zwischen den Releases 0.4 Baby und 0.5
+  Bandit)
+* Während dem Release von QGIS 1.0 Kore habe ich gerade meine Bachelorarbeit in
+  Geografie geschrieben
+* Meinen ersten Commit habe ich für QGIS 1.8 gemacht
+* Selbständig gemacht habe ich mich mit QGIS 2.0
+* Während dem Release von QGIS 3 war ich in Buenos Aires auf der Rückreise von
+  Patagonien
+
+---
+@title[opengis]
+
+
+![opengis](assets/images/opengis.png)
+
+
 ---
 @title[Warum QGIS 3]
 
-# Warum QGIS 3
+# Warum QGIS <span class="green">3</span>?
+
+![qgis3](assets/images/qgis3.png)
 
 ---
 @title[Geschwindigkeit]
