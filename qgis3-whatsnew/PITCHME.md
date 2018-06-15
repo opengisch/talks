@@ -74,21 +74,21 @@ Biografie:
 ---
 @title[GeoPackage]
 
-# GeoPackage
+# Standardformat <span class="green">GeoPackage</span>
 
 ![](assets/images/verpacken.jpg)
 
 ---
 @title[Integrierte Suche]
 
-# Integrierte Suche
+# Integrierte <span class="green">Suche</span>
 
 ## Locator Bar
 
 ---
 @title[Server]
 
-# Server
+# Reorganisation <span class="green">Server</span>
 
 @ul
 `
@@ -98,7 +98,7 @@ rm -rf src/server
 ---
 @title[Server]
 
-# Server
+# Reorganisation <span class="green">Server</span>
 
 @div[left-50]
 
@@ -121,7 +121,7 @@ rm -rf src/server
 ---
 @title[Ausdrücke]
 
-# Ausdrücke
+# Einige neue <span class="green">Ausdrücke</span>
 
 [Einige neue Ausdrücke](http://changelog.qgis.org/en/qgis/version/3.0.0/#category-50)
 
@@ -133,7 +133,7 @@ rm -rf src/server
 ---?image=assets/images/scharf.jpg&size=50%&position=bottom
 @title[Retina Support]
 
-@css[title-top-center](Retina/HiDPI Unterstützung)
+@css[title-top-center](<span class="green">Retina/HiDPI</span> Unterstützung)
 
 Note:
 Damit die Bilder gestochen scharf sind
