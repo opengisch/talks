@@ -2,7 +2,7 @@
 
 # Was ist neu in QGIS 3
 
-QGIS frisch poliert
+![frisch gestrichen](assets/images/frisch-gestrichen.jpg)
 
 Note:
 
