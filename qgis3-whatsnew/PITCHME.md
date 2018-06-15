@@ -45,8 +45,38 @@ Biografie:
 ![qgis3](assets/images/qgis3.png)
 
 ---
+@title[Weil es nötig war]
+
+# Weil es <span class="green">nötig</span> war
+
+@div[left-50]
+
+![server codesprint](assets/images/ueberladen.jpg)
+
+@divend
+
+@div[right-50]
+
+@ul
+- Qt 4 -> Qt 5
+- Python 2 -> Python 3
+- Aufräumarbeiten
+@ulend
+
+@divend
+
+---
 @title[Geschwindigkeit]
 # Geschwindigkeit
+
+![](speed.jpg)
+
+---
+@title[GeoPackage]
+
+# GeoPackage
+
+![](verpacken.jpg)
 
 ---
 @title[Integrierte Suche]
@@ -95,7 +125,7 @@ rm -rf src/server
 
 # Ausdrücke
 
-[Einige neue Ausdrücke](http://changelog.qgis.org/en/qgis/version/3.0.0/#new-expression-functions)
+[Einige neue Ausdrücke](http://changelog.qgis.org/en/qgis/version/3.0.0/#category-50)
 
 ---
 @title[Datenerfassung - Digitalisieren]
@@ -106,6 +136,8 @@ rm -rf src/server
 @title[Als Bild Speichern]
 
 # Als Bild Speichern wurde verbessert
+
+![save as image](assets/images/saveasimage.png)
 
 ---
 @title[Mesh Layers]
