@@ -259,6 +259,20 @@ Im Zentrum steht die Karte
 
 ---
 
+@title[Verarbeitungswerkzeuge]
+
+## Parallelisierung
+
+---
+
+@title[Verarbeitungswerkzeuge]
+
+## Verbesserungen
+
+![](assets/images/featurefilter.png)
+
+---
+
 @title[Metadaten]
 
 ## Metadaten
