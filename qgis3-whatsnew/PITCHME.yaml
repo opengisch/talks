@@ -1,0 +1,9 @@
+theme-override : assets/css/PITCHME.css
+background : assets/images/wallpaper3.jpg
+logo : assets/images/openGIS-Text.png
+transition : none
+footnote : "© 2018 OPENGIS.ch"
+
+# If true, the menu will be simplified (i.e. no style menu and no git service menu)
+published: false
+
