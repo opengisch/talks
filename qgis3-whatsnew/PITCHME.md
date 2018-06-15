@@ -97,12 +97,14 @@ rm -rf src/server
 
 Einige neue Ausdrücke
 
-<div style="font: 1">
-- `atlas_layerid`
-- `atlas_layername`
-- `array_agg`
-- `array(value1, value2, ...)`
-- `array_append(array, value)`
+<div style="font-size: 1">
+<ul>
+<li> `atlas_layerid`
+<li> `atlas_layername`
+<li> `array_agg`
+<li> `array(value1, value2, ...)`
+<li> `array_append(array, value)`
+</ul>
 </div>
 
 ---
