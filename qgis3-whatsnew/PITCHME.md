@@ -76,7 +76,7 @@ Biografie:
 
 # GeoPackage
 
-![](assets/imagesassets/images//verpacken.jpg)
+![](assets/images/verpacken.jpg)
 
 ---
 @title[Integrierte Suche]
