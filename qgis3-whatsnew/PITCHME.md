@@ -97,7 +97,7 @@ rm -rf src/server
 
 Einige neue Ausdrücke
 
-<div style="font-size: 1">
+<div style="font-size: 0.1">
 <ul>
 <li> `atlas_layerid`
 <li> `atlas_layername`
