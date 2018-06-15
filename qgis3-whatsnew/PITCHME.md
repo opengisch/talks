@@ -281,6 +281,7 @@ Im Zentrum steht die Karte
 
 @div[left-50]
 
+@ul
 **Deckkraft <-> Alpha**
 
 - Im Normalfall Deckkraft
@@ -293,6 +294,7 @@ Im Zentrum steht die Karte
 **Skala**
 
 - 1:25'000 oder 25'000
+@ulend
 
 @divend
 
