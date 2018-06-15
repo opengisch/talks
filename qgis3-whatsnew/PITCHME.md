@@ -60,6 +60,9 @@ Biografie:
 
 # Server
 
+@ul
+- `rm -rf src/server`
+
 ---
 @title[Ausdrücke]
 
@@ -163,7 +166,7 @@ Im Zentrum steht die Karte
 
 @title[Notify von Postgres]
 
-# NOTIFY
+# PostgreSQL NOTIFY
 
 ![postgisnotify](assets/images/postgisnotify.jpg)
 
@@ -177,4 +180,3 @@ Im Zentrum steht die Karte
 
 ---
 
-![tracewithoffset](assets/images/tracewithoffset.gif)
