@@ -47,7 +47,6 @@ Biografie:
 ---
 @title[Charts]
 
-@css[title-top-right](Man könnte Charts zeigen)
 
 <br>
 
