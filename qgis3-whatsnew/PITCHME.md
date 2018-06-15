@@ -135,18 +135,18 @@ Im Zentrum steht die Karte
 
 @title[Benutzeroberfläche - Konsistenz]
 
-# Konsistenz der Benutzeroberfläche
+## Konsistenz der Benutzeroberfläche
 
-## Deckkraft <-> Alpha
+### Deckkraft <-> Alpha
 
  * Im Normalfall Deckkraft
  * Skala in `%`, intern von 0-1
 
-## Rotation 
+### Rotation 
 
  * Immer im Uhrzeigersinn
 
-## Skala
+### Skala
 
  * 1:25'000 oder 25'000
 
