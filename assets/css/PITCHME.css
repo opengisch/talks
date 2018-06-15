@@ -72,11 +72,23 @@ span.aside {
     position: fixed;
     top: 70px;
     right: 10px;
-    margin: 0 0 20px 0 !important;
-    color: #333 !important;
+    margin: 0 0 60px 0 !important;
+    color: #e49436 !important;
     font-weight: normal !important;
-    line-height: 1.8 !important;
+    line-height: 1.2 !important;
     letter-spacing: -0.03em !important;
     font-family: "Montserrat", Impact, sans-serif !important;
+    font-size: 1.55em;
 }
 
+.title-top-center {
+    position: fixed;
+    top: 70px;
+    margin: 0 0 60px 0 !important;
+    color: #e49436 !important;
+    font-weight: normal !important;
+    line-height: 1.2 !important;
+    letter-spacing: -0.03em !important;
+    font-family: "Montserrat", Impact, sans-serif !important;
+    font-size: 1.55em;
+}
