@@ -140,6 +140,24 @@ rm -rf src/server
 ![save as image](assets/images/saveasimage.png)
 
 ---
+@title[Retina Support]
+
+# Retina / HiDPI Unterstützung
+
+![](scharf.jpg)
+
+Note:
+Damit die Bilder gestochen scharf sind
+
+---
+#title[]
+
+---
+@title[Mehrere Karten nebeneinander]
+![](multicanvas.jpg)
+
+
+---
 @title[Mesh Layers]
 
 # Mesh Layers
@@ -241,3 +259,16 @@ Im Zentrum steht die Karte
 
 ---
 
+@title[Verarbeitungswerkzeuge]
+
+## Viele Algorithmen jetzt im Kern
+
+---
+
+@title[Metadaten]
+
+## Metadaten
+
+### Weil ich es mir wert bin
+
+![](assets/images/metadata.png)
