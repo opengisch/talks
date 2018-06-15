@@ -69,14 +69,14 @@ Biografie:
 @title[Geschwindigkeit]
 # Geschwindigkeit
 
-![](speed.jpg)
+![](assets/images/speed.jpg)
 
 ---
 @title[GeoPackage]
 
 # GeoPackage
 
-![](verpacken.jpg)
+![](assets/imagesassets/images//verpacken.jpg)
 
 ---
 @title[Integrierte Suche]
@@ -130,11 +130,6 @@ rm -rf src/server
 
 # Datenerfassung - Digitalisieren
 
----?image=assets/images/saveasimage.png&size=40%&position=bottom
-@title[Als Bild Speichern]
-
-@css[title-top-center](Als Bild Speichern)
-
 ---?image=assets/images/scharf.jpg&size=50%&position=bottom
 @title[Retina Support]
 
@@ -142,6 +137,11 @@ rm -rf src/server
 
 Note:
 Damit die Bilder gestochen scharf sind
+
+---?image=assets/images/saveasimage.png&size=40%&position=bottom
+@title[Als Bild Speichern]
+
+@css[title-top-center](Als Bild Speichern)
 
 ---
 #title[]
