@@ -140,6 +140,19 @@ Biografie:
 ![](assets/images/hochseil.png)
 
 ---
+@title[3D]
+
+# 3D
+
+![](assets/images/3d.gif)
+---
+@title[Mehrere Kartenfenster]
+
+# Mehrere Kartenfenster
+
+![](assets/images/multicanvas.gif)
+
+---
 @title[GeoPackage]
 
 # Standardformat <span class="green">GeoPackage</span>
@@ -183,6 +196,12 @@ rm -rf src/server
 @ulend
 
 @divend
+---
+@title[Reports]
+
+# Reports
+
+[](assets/images/report.png)
 
 ---
 @title[Ausdrücke]
@@ -195,6 +214,9 @@ rm -rf src/server
 @title[Datenerfassung - Digitalisieren]
 
 # Datenerfassung - Digitalisieren
+
+![](assets/images/vertextool.gif)
+
 
 ---?image=assets/images/scharf.jpg&size=50%&position=bottom
 @title[Retina Support]
@@ -326,13 +348,16 @@ Im Zentrum steht die Karte
 
 @title[Verarbeitungswerkzeuge]
 
+# Verarbeitungswerkzeuge
+
 ## Viele Algorithmen jetzt im Kern
 
 ---
-
 @title[Verarbeitungswerkzeuge]
 
 ## Parallelisierung
+
+# Verarbeitungswerkzeuge
 
 ---
 
@@ -351,3 +376,9 @@ Im Zentrum steht die Karte
 ### Weil ich es mir wert bin
 
 ![](assets/images/metadata.png)
+
+---
+
+@title[Live demo]
+
+## Live demo
