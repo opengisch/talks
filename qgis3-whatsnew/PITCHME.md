@@ -195,7 +195,7 @@ rm -rf src/server
 
 @divend
 
----?image=assets/images/report.png&size=50%&position=bottom
+---?image=assets/images/report.png&size=440%&position=bottom
 @title[Reports]
 
 @css[title-top-center](Reports)
