@@ -213,7 +213,7 @@ rm -rf src/server
 ---?image=assets/images/vertextool.gif&size=40%&position=bottom
 @title[Datenerfassung - Digitalisieren]
 
-## Datenerfassung - Digitalisieren
+@css[title-top-center](Datenerfassung / Digitalisieren)
 
 
 ---?image=assets/images/scharf.jpg&size=50%&position=bottom
