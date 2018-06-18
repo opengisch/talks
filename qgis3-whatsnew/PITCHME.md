@@ -145,12 +145,10 @@ Biografie:
 # 3D
 
 ![](assets/images/3d.gif)
----
+---?image=assets/images/multicanvas.gif&size=50%&position=bottom
 @title[Mehrere Kartenfenster]
 
-# Mehrere Kartenfenster
-
-![](assets/images/multicanvas.gif)
+@css[title-top-center](Mehrere Kartenfenster)
 
 ---
 @title[GeoPackage]
