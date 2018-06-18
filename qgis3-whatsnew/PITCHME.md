@@ -194,12 +194,11 @@ rm -rf src/server
 @ulend
 
 @divend
----
+
+---?image=assets/images/report.png&size=50%&position=bottom
 @title[Reports]
 
-# Reports
-
-![](assets/images/report.png)
+@css[title-top-center](Reports)
 
 ---
 @title[Ausdrücke]
