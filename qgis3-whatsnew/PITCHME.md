@@ -199,7 +199,7 @@ rm -rf src/server
 
 # Reports
 
-[](assets/images/report.png)
+![](assets/images/report.png)
 
 ---
 @title[Ausdrücke]
