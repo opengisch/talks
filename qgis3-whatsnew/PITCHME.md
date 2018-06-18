@@ -337,20 +337,22 @@ Im Zentrum steht die Karte
 
 @title[Verarbeitungswerkzeuge]
 
-# Verarbeitungswerkzeuge
+# Verarbeitungs-werkzeuge
 
 ## Viele Algorithmen jetzt im Kern
 
 ---
 @title[Verarbeitungswerkzeuge]
 
-## Parallelisierung
+# Verarbeitungs-werkzeuge
 
-# Verarbeitungswerkzeuge
+## Parallelisierung
 
 ---
 
 @title[Verarbeitungswerkzeuge]
+
+# Verarbeitungs-werkzeuge
 
 ## Verbesserungen
 
