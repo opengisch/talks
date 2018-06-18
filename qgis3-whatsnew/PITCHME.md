@@ -239,7 +239,7 @@ Damit die Bilder gestochen scharf sind
 ---?image=assets/images/clusterrenderer.png&size=50%&position=bottom
 @title[Point cluster renderer]
 
-# Cluster Renderer für Punkte
+@css[title-top-center](Cluster Renderer für Punkte)
 
 ---
 @title[Labelplatzierung]
