@@ -352,7 +352,7 @@ Im Zentrum steht die Karte
 
 @title[Verarbeitungswerkzeuge]
 
-@css[title-top-center](Verarbeitungswerkzeuge - Verbesserungen)
+@css[title-top-right](Verarbeitungswerkzeuge - Verbesserungen)
 
 
 ---
