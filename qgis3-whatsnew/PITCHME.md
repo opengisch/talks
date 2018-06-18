@@ -236,12 +236,10 @@ Damit die Bilder gestochen scharf sind
 
 ![mesh layer](assets/images/mesh.gif)
 
----
+---?image=assets/images/clusterrenderer.png&size=50%&position=bottom
 @title[Point cluster renderer]
 
 # Cluster Renderer für Punkte
-
-![cluster renderer](assets/images/clusterrenderer.png)
 
 ---
 @title[Labelplatzierung]
