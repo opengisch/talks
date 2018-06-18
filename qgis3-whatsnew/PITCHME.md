@@ -229,13 +229,6 @@ Damit die Bilder gestochen scharf sind
 
 @css[title-top-center](Als Bild Speichern)
 
----?video=https://video.twimg.com/tweet_video/DQli25NVAAAEPt8.mp4&size=40%
-
-@title[Mehrere Karten nebeneinander]
-
-@css[title-top-right](Mehrere Karten nebeneinander)
-
-
 ---
 @title[Mesh Layers]
 
