@@ -348,15 +348,12 @@ Im Zentrum steht die Karte
 
 ## Parallelisierung
 
----
+---?image=assets/images/featurefilter.png&size=50%&position=bottom
 
 @title[Verarbeitungswerkzeuge]
 
-# Verarbeitungs-werkzeuge
+@css[title-top-center](Verarbeitungswerkzeuge - Verbesserungen)
 
-## Verbesserungen
-
-![](assets/images/featurefilter.png)
 
 ---
 
