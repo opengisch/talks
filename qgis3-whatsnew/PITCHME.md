@@ -210,7 +210,7 @@ rm -rf src/server
 
 [Einige neue Ausdrücke](http://changelog.qgis.org/en/qgis/version/3.0.0/#category-50)
 
----?image=assets/images/vertextool.gif&size=40%&position=bottom
+---?image=assets/images/vertextool.gif&size=50%&position=bottom
 @title[Datenerfassung - Digitalisieren]
 
 @css[title-top-center](Datenerfassung / Digitalisieren)
