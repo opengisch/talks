@@ -382,3 +382,52 @@ Im Zentrum steht die Karte
 @title[Live demo]
 
 ## Live demo
+
+Note:
+- Processing
+  - Centroid auf Polygonen
+  - Buffer auf Punkten
+  - Layer entfernen
+  - QGIS schliessen
+
+- Suche
+  - Swiss locator
+  - "LK500"
+  - "Bundesplatz 3"
+  - "Olten"
+
+---
+
+@title[Migration]
+
+# Migration
+
+---
+
+@title[Plugins]
+
+# Plugins
+
+---
+
+@title[Projektes]
+
+# Projekte
+
+---
+
+@title[Workflows]
+
+# Workflows
+
+---
+
+@title[]
+
+# Modelle Verarbeitungswerkzeuge
+
+---
+
+@title[Fragen]
+
+# Fragen?
