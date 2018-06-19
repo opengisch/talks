@@ -1,4 +1,4 @@
-theme-override : assets/css/PITCHME.css
+# theme-override : assets/css/PITCHME.css
 background : assets/images/bg.svg
 background-position : bottom 10px right 20px; 
 logo : assets/images/openGIS-Text.png
