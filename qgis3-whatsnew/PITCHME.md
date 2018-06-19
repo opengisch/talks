@@ -34,8 +34,29 @@ Biografie:
 
 #### OPENGIS.ch
 
+
+@div[left-50]
+
+@ul
+- Open Source GIS
+- Entwicklung
+- Systemarchitektur
+- Beratung
+- Schulung
+@ulend
+
+@divend
+
+@div[right-50]
+
 ![opengis](assets/images/opengis.png)
 
+@divend
+
+Note:
+- Existiert seit QGIS 2.6 Brighton
+- Mehrere hochaktive QGIS Kernentwickler
+- Vizepräsident QGIS Projekt
 
 ---
 @title[Warum QGIS 3]
