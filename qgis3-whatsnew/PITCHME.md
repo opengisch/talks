@@ -445,3 +445,23 @@ Note:
 @title[Fragen]
 
 # Fragen?
+
+---
+
+# Quellen
+
+- http://changelog.qgis.org/en/qgis/version/3.2.0/
+- https://qgis.org/en/site/forusers/visualchangelog30/
+- https://gisgeography.com/qgis-3/
+- https://www.birdseyeviewgis.com/blog/2018/2/22/my-favorite-features-of-qgis-30to-date
+
+---
+
+# Danke
+
+- Entwickler
+- Dokumentationsteam
+- Sponsoren
+- Anwendergruppen
+- Engagierte Personen
+- Und so viele weitere!!
