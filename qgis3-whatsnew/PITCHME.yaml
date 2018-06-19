@@ -1,6 +1,6 @@
 theme-override : assets/css/PITCHME.css
 background : assets/images/bg.svg
-background-position : bottom 10px right 20px; 
+background-position : 120% 120%; 
 logo : assets/images/openGIS-Text.png
 transition : none
 footnote : "© 2018 OPENGIS.ch"
