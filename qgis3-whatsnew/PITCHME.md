@@ -450,10 +450,10 @@ Note:
 
 # Quellen
 
-- http://changelog.qgis.org/en/qgis/version/3.2.0/
-- https://qgis.org/en/site/forusers/visualchangelog30/
-- https://gisgeography.com/qgis-3/
-- https://www.birdseyeviewgis.com/blog/2018/2/22/my-favorite-features-of-qgis-30to-date
+- [QGIS Changelog 3.0](https://qgis.org/en/site/forusers/visualchangelog30/)
+- [QGIS Changelog 3.2](http://changelog.qgis.org/en/qgis/version/3.2.0/)
+- [Kurt Menke, Bird's Eye View](https://www.birdseyeviewgis.com/blog/2018/2/22/my-favorite-features-of-qgis-30to-date)
+- [GisGeography](https://gisgeography.com/qgis-3/)
 
 ---
 
