@@ -4,10 +4,12 @@
 body {
   background-color: #80CC28;
   color:#fff;
+  background-size: cover;
 }
 
 body.with_logo {
     background-image: url("images/copyrighted/openGIS-logo-round-green-no-text-bg-cut-white.svg");
+    
 }
 
 div.green_text, p.footer_title{
@@ -22,4 +24,3 @@ a {
   background: #2880cc;
   color:#fff;
 }
-
