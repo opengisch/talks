@@ -170,7 +170,7 @@ Note:
 ---
 @title[Mehrere Kartenfenster]
 
-@css[title-top-center](Mehrere Kartenfenster)
+# Mehrere Kartenfenster
 ![Video](https://player.vimeo.com/video/289046458)
 
 ---
