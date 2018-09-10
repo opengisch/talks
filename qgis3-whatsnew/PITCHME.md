@@ -13,7 +13,7 @@ möglich ist. Und in weiteren Releases von QGIS 3 möglich sein wird.
 @title[Wer bin ich?]
 # Wer bin <span class="green">ich</span>?
 
-![mkuhn](assets/images/m-kuhn.png)
+![mkuhn](assets/images/mbernasocchi.jpeg)
 
 Note:
 
@@ -341,7 +341,7 @@ Im Zentrum steht die Karte
 
 # PostgreSQL NOTIFY
 
-![postgisnotify](assets/images/postgisnotify.jpg)
+![postgisnotify](assets/images/postgisnotify.gif)
 
 ---
 
