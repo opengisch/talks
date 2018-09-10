@@ -165,13 +165,13 @@ Note:
 
 # 3D
 
-![Video](https://vimeo.com/289046475)
+![Video](https://player.vimeo.com/video/289046475)
 
 ---
 @title[Mehrere Kartenfenster]
 
 @css[title-top-center](Mehrere Kartenfenster)
-![Video](https://vimeo.com/289046458)
+![Video](https://player.vimeo.com/video/289046458)
 
 ---
 @title[GeoPackage]
