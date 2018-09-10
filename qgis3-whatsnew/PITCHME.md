@@ -171,7 +171,7 @@ Note:
 @title[Mehrere Kartenfenster]
 
 @css[title-top-center](Mehrere Kartenfenster)
-![Gravity](https://player.vimeo.com/video/289046458)
+![Video](https://player.vimeo.com/video/289046458)
 
 ---
 @title[GeoPackage]
