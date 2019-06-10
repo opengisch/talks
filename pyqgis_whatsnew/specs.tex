@@ -1,0 +1,90 @@
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{babel}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{tabularx}
+\usepackage{textpos}
+\usepackage{wallpaper}
+\usepackage{pgfpages}
+\usepackage{etoolbox} % to setup lstinputlisting
+\usepackage{dirtytalk}
+\usepackage{epigraph}
+
+% settings to draw border around every first 3 slide per sheet
+\pgfpageslogicalpageoptions{1}{border code=\pgfusepath{stroke}}
+\pgfpageslogicalpageoptions{2}{border code=\pgfusepath{stroke}}
+\pgfpageslogicalpageoptions{3}{border code=\pgfusepath{stroke}}
+
+\setcounter{tocdepth}{1}
+
+\definecolor{pythoncommentcolor}{rgb}{0,0.6,0}
+\definecolor{linenumbercolor}{rgb}{0.5,0.5,0.5}
+\definecolor{pythonstringcolor}{rgb}{0.58,0,0.82}
+\definecolor{codebackgroundcolor}{rgb}{0.95,0.95,1}
+\definecolor{outputbackgroundcolor}{rgb}{0.95,0.95,0.95}
+
+\setlength{\epigraphwidth}{0.9\textwidth}
+
+% Define styles for listing package
+\lstdefinestyle{pythoncode}{
+	backgroundcolor=\color{codebackgroundcolor}, % choose the background color
+	basicstyle=\footnotesize\ttfamily, % the size of the fonts that are used for the code 
+	language=Python, 
+	commentstyle=\color{pythoncommentcolor},
+	breaklines=true, % sets automatic line breaking
+	captionpos=b, % sets the caption-position to bottom
+	keywordstyle=\color{blue},
+	stringstyle=\color{pythonstringcolor},
+	numbers=left, % where to put the line-numbers
+	numbersep=5pt, % how far the line-numbers are from the code
+	numberstyle=\tiny\color{linenumbercolor},
+	stepnumber=1, % the step between two line-numbers. If it's 1, each line will be numbered
+	tabsize=4, % sets default tabsize to 4 spaces
+	title=\lstname, % show the filename of files included with \lstinputlisting; also try caption instead of title
+	showstringspaces=false % no special string spaces
+}
+\lstdefinestyle{pythonoutput}{
+	backgroundcolor=\color{outputbackgroundcolor}, % choose the background color
+	basicstyle=\footnotesize\ttfamily, % the size of the fonts that are used for the code 
+	aboveskip=-20pt
+}
+
+% make line numbers corresponding to file contents
+% https://tex.stackexchange.com/questions/26828/first-line-number-in-lstinputlisting-environment
+\makeatletter
+\patchcmd{\lst@GLI@}% <command>
+  {\def\lst@firstline{#1\relax}}% <search>
+  {\def\lst@firstline{#1\relax}\def\lst@firstnumber{#1\relax}}% <replace>
+  {\typeout{listings firstnumber=firstline}}% <success>
+  {\typeout{listings firstnumber not set}}% <failure>
+\makeatother
+
+\title{PyQGIS the comfortable way}
+\subtitle{Tricks to efficiently work with Python and QGIS}
+\author[Matthias] % (optional, for multiple authors)
+{Matthias Kuhn}
+\institute[OPENGIS.ch GmbH] % (optional)
+
+\date{Olten, 13.6.2019}
+\subject{Computer Science}
+
+\titlegraphic{\includegraphics[width=3cm]{img/openGIS-Text.png}}
+
+
+\begin{document}
+	\frame[plain]{\titlepage}
+	
+%	\addtobeamertemplate{frametitle}{}{%
+%	\begin{textblock*}{100mm}(.95\textwidth,-0.5cm)
+%			\includegraphics[height=0.5cm]{../img/openGIS-Text.png}
+%	\end{textblock*}}
+
+	\input{intro.tex}
+	\input{decorators.tex}
+	\input{exceptions.tex}
+	\input{with.tex}
+	\input{repr.tex}
+\end{document}

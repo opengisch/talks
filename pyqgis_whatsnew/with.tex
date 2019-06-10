@@ -1,0 +1,32 @@
+\subsection{Atomic operations using with}
+\begin{frame}[fragile]
+\frametitle{Atomic operations using with}
+
+\begin{lstlisting}[style=pythoncode]
+# Fix population from absolute to relative
+layer.startEditing()
+for feat in layer.getFeatures():
+	feat['population'] = feat['population'] / feat['area']
+	layer.updateFeature(feat)
+layer.commitChanges()
+\end{lstlisting}
+\pause
+\begin{lstlisting}[style=pythonoutput]
+ZeroDivisionError: division by zero
+\end{lstlisting}
+
+\end{frame}
+
+\subsection{Representing objects}
+\begin{frame}[fragile]
+\frametitle{Representing objects, Since QGIS 3.2}
+
+\begin{lstlisting}[style=pythoncode]
+QgsPoint(2635450,1244252)
+\end{lstlisting}
+\pause
+\begin{lstlisting}[style=pythonoutput]
+<QgsPoint: Point (2635450 1244252)>
+\end{lstlisting}
+
+\end{frame}

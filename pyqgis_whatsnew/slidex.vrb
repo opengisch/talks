@@ -1,0 +1,10 @@
+\frametitle{Representing objects, Since QGIS 3.2}
+
+\begin{lstlisting}[style=pythoncode]
+QgsPoint(2635450,1244252)
+\end{lstlisting}
+\pause
+\begin{lstlisting}[style=pythonoutput]
+<QgsPoint: Point (2635450 1244252)>
+\end{lstlisting}
+
