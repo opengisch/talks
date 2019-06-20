@@ -1,0 +1,96 @@
+\section{Exceptions}
+
+\subsection{Handling exceptions}
+
+\begin{frame}
+\frametitle{When things go wrong}
+	\includegraphics[width=0.9\textwidth]{img/calvin.png}
+\end{frame}
+
+\subsection{Converting a geometry to a point}
+\begin{frame}[fragile]
+\frametitle{Converting a geometry to a point}
+
+\begin{lstlisting}[style=pythoncode]
+QgsGeometry.fromWkt('POINT(3 4)').asPoint()
+\end{lstlisting}
+\pause
+\begin{lstlisting}[style=pythonoutput]
+<QgsPointXY: POINT(3 4)>
+\end{lstlisting}
+
+\end{frame}
+
+\subsection{Converting a geometry to a point}
+\begin{frame}[fragile]
+\frametitle{Converting a geometry to a point}
+
+\begin{lstlisting}[style=pythoncode]
+QgsGeometry.fromWkt('LINESTRING((3 4), (7 8))').asPoint()
+\end{lstlisting}
+\pause
+\begin{lstlisting}[style=pythonoutput]
+<QgsPointXY: POINT(0 0)>
+\end{lstlisting}
+\pause
+... only until QGIS 3.4
+\end{frame}
+
+\subsection{Converting a geometry to a point}
+\begin{frame}[fragile]
+\frametitle{Converting a geometry to a point}
+
+\begin{lstlisting}[style=pythoncode]
+QgsGeometry.fromWkt('LINESTRING((3 4), (7 8))').asPoint()
+\end{lstlisting}
+\pause
+\begin{lstlisting}[style=pythonoutput]
+Traceback (most recent call last):
+  File "plugins/somewhere/plugin.py", 
+               line 90, in broken_method
+TypeError: LineString geometry cannot be converted
+           to a point. Only Point types are permitted.
+\end{lstlisting}
+\end{frame}
+
+\subsection{When things go wrong}
+\begin{frame}[fragile]
+\frametitle{When things go wrong}
+
+\begin{lstlisting}[style=pythoncode]
+mp = QgsMultiPoint()
+mp.addGeometry(QgsPoint(1,1))
+mp.addGeometry(QgsPoint(2,2))
+\end{lstlisting}
+\pause
+\begin{lstlisting}[style=pythoncode]
+mp.geometryN(3)
+\end{lstlisting}
+\pause
+\begin{lstlisting}[style=pythonoutput]
+IndexError: 3
+\end{lstlisting}
+
+\end{frame}
+
+
+\subsection{When things go wrong}
+\begin{frame}[fragile]
+\frametitle{When things go wrong}
+
+\begin{lstlisting}[style=pythoncode]
+try:
+	mp.geometryN(3)
+except IndexError as e:
+	show_error(self.tr('The geometry is too short. Input data linestrings need to have at least 4 vertices.'))
+\end{lstlisting}
+
+\end{frame}
+
+
+\subsection{Handling exceptions}
+
+\begin{frame}
+\frametitle{When things go wrong}
+	\includegraphics[width=0.9\textwidth]{img/calvin2.png}
+\end{frame}
