@@ -10,12 +10,12 @@
 <div>Exception #1: Can’t interact with many features on a raster. BUT <a href="https://www.mapbox.com/blog/how-interactivity-works-utfgrid/">UTFGrid</a> (Mapbox invention) makes it possible.</div>
 <div style="color: black"><img src="../images/utfgrid.png">UTFGrid is an invisble tile layer made up of arbitrary letters which are indexes into the clickable data</div>
 <div>DEMO <a href="https://platform.openquake.org/grv/">Global risk viewer</a></div>
-<div>DEMO <a href="https://platform.openquake.org/hazus/">Hazus viewer</a></div>
-<div>DEMO <a href="https://platform.openquake.org/hrde/">Hazard explorerr</a></div>
+<div>DEMO <a href="https://amenazasismica.sgc.gov.co/map/co18_results_rock_grid/">Geoviewer</a></div>
 
 <div>Exception #2: Tiles are always rasters <em>except</em> when they're not!</div>
 <div><img src="../images/vector_tiles.png"><em>vector tiles!</em> What are they?</div>
 <div><a href="https://www.mapbox.com/blog/vector-tiles/">vector tiles</a>: they are an alternative to a database that makes raster tiles.</div>
+<div><a href="https://test.map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.leichte-basiskarte.vt&layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege&layers_visibility=false,false,false,false&layers_timestamp=18641231,,,&layers_opacity=1,1,1,0.8">Example swisstopo vector tiles</a></div>
 <div><em>Raster:</em> ask for data to fit into tile - burned</div>
 <div><em>Vector:</em> already have vector data sliced up in the way that I will make raster tiles</div>
 <div>So someone has to go through and chop up that data, like <a href="https://www.mapbox.com/blog/vector-tiles/">MapBox</a> or yourself</div>
