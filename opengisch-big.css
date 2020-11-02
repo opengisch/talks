@@ -31,6 +31,10 @@ em, a {
   font-style:normal;
 }
 
+blue_stroke {
+  -webkit-text-stroke: 4px #2880cc; 
+}
+
 a {
   text-decoration:none;
 }
