@@ -78,80 +78,109 @@ We seperate the project configurator and the endusers "the veggie team" that use
 
 ### Comfortably prepare the work on your QGIS Desktop
 
-Prepare it on QGIS and QFieldSync - usually a team leader does that and the field workers have nothing to do.
+**Prepare it on QGIS and QFieldSync**. Usually a team leader does that and the field workers have nothing to do with it.
 
 The team leader decides what layer she wants to have handled offline or over the cloud, what layers needs to be ignored or which ones are connected directly to the database. Then there are additional settings like the path for the images etc.
 
-Then she uploads the project to the cloud or - because of course it's not mandatory to use the cloude - she copies it to the device just with an USB-cable.
+Then she uploads the project to the cloud or - **because of course it's not mandatory to use the cloud** - she copies it to the device just with an USB-cable.
 
 ### Efficiently work on your GIS data outdoor
 
-The field workers have nothing to do with all the configuration. They just collect the data, digitize geometries, making photos and so on.
+The field workers **have nothing to do with all the configuration**. They just collect the data, digitize geometries, making photos and so on.
 
 ### Seamlessly syncronize on the device...
 
-When they finished, the give the data back to the base. Means they push it to the QFieldCloud or they pass the datapackage back to the teamleader, who synchronizes the data with QFieldSync.
+When they finished, they give back the data. Means a simple click to **push to the Cloud** or they give the datapackage back to the teamleader, who synchronizes the data easily with QFieldSync.
 
 ## What is in QGIS
 
 ### Powerfull forms
-Widgets like Value Map, Range Slider (Costraints)
-(Remember Attributes if it fits somewhere otherwise just mention)
+
+#### video form_widgets
+- Widgets like Value Map, Range Slider
+- Soft and Hard constraints - evt. mention remember attributes function
+
+#### video conditional_visibility
+- Coonditional visibility
 
 ### Relations
-Relation Reference Widget
-Value Relation Widget
-Relation Editor Widget
 
-### Conditional visibility
+#### video relation widgets
+Here the project context is, that we have the beehives and record how much persent from what field is consumed...
+- Relation Editor Widget
+- Relation Reference Widget
 
-### Photo with Camera
-and add file
+### Camera, file and interactive widgets (qml, html)
+
+#### video camera and pdf
+- Foto with camera
+- Open an attached pdf
+
+#### video qml and html
+- check out fancy qml charts
+- check out interactive html widget
 
 ### Multi Edit
+#### video multi editing
+- multi editing
 
 ### Map Themes
-The video is quite fast but I will show it several times.
-It shows us how to use **layer visibility** and **map themes**.
+#### video map themes
+How to use **layer visibility** and **map themes**.
 Like you see it's what you expect from QGIS here as well.
 
 ### Search
+#### video search
+- coordinate search
+- search for feature according an attribute
 
 ### Measure 
+#### video measure
+- pleasure you can't measure
 
-### Feature Editing
-(topological, snapping, splitting, fill ring, ...)
-
-### Topological Editing
+### Edit geometry and use topological editing
+#### video edit_geom
+-
+-
+#### video edit_topo
+-
 
 ### GPS Tracking
-compass, Z values, antenna height correction, ...)
+### video tracking
+- You can track wherever you going
+
+mention compass, Z values, antenna height correction
 
 ### Freehand drawing
+(not yet here)
 
 ### Print PDF
+#### video print pdf
 QField uses the layer layouts configured in QGIS. If you have some, the option is there.
 Print to PDF and fine. **Print it with external app**
 
-### Release info
-QField is widely used.
-This is the current release, and to check out the new feature become a beta tester
+## Cloud
+We are heaviling testing QField Cloud and you can join us soon as well as a beta tester.
+It actually working similar to the well known offline editing, just that you can synchronize whenever you want, you don't have to bring the data back to the office.
+QFieldCloud takes care about all the data pushed from different workers on the field.
 
-There is stuff on the roadmap 
+## Release info
+QField is widely used, 300 Thousands of downloads on android and Apple integration is in the pipeline.
+This is the current release is 1.7.5
+Become a beta tester to check out the latest stuff.
 
-CAD computer-aided drafting implementation
-Networkstate based
+(If you have spare time, mention some stuff that could come one time, like: CAD computer-aided drafting implementation, Networkstate based, Humidity etc. sensors...)
 
-Full internet connection / or have all the data offline.
-Synchronize whenever you are online. And when you go offline, you keep on editing on offline data.
+## Join the efford
+So dont hestitate. It's open source, it's a great tool and you will be in good company by a lot of other users.
 
-Humidity etc. sensors...
+If you like it, then:
+- Help us by telling us your story, show us how you use QField.
+- Become a beta tester and report bugs
+- Fix bugs and bring your inputs
+- Finance bug fixing and awesome new ideas
+We are happy about any kind of support.
 
-### Custom app
-If you need more specific - invest in your custom app
-
-### Cloud 
-
-### Join the efford
-
-
+## Custom app
+If you need something more specific - invest in your custom app
+We can obviously customize QField and create a version especially for you
