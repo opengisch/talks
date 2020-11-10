@@ -141,7 +141,7 @@ Like you see it's what you expect from QGIS here as well.
 ### Edit geometry and use topological editing
 #### video edit_geom
 -
--
+
 #### video edit_topo
 -
 
@@ -159,13 +159,17 @@ mention compass, Z values, antenna height correction
 QField uses the layer layouts configured in QGIS. If you have some, the option is there.
 Print to PDF and fine. **Print it with external app**
 
+## iOS Support
+QField runs on iOS, it's just not yet released.
+
 ## Cloud
 We are heaviling testing QField Cloud and you can join us soon as well as a beta tester.
 It actually working similar to the well known offline editing, just that you can synchronize whenever you want, you don't have to bring the data back to the office.
 QFieldCloud takes care about all the data pushed from different workers on the field.
 
+
 ## Release info
-QField is widely used, 300 Thousands of downloads on android and Apple integration is in the pipeline.
+QField is widely used, 300 Thousands of downloads on android and apple is coming
 This is the current release is 1.7.5
 Become a beta tester to check out the latest stuff.
 
