@@ -4,9 +4,7 @@ This notes should contain what you can - but not must - tell for each slide.
 
 ## QField - Because data is outside
 
-Welcome everybody to my presentation about QField.
-
-We don't have much time, so let's move on.
+Welcome everybody to my presentation about QField. 
 
 ### That's me
 
