@@ -128,14 +128,6 @@ When they finished, they give back the data. Means a simple click to **push to t
 #### video conditional_visibility
 - Coonditional visibility
 
-### Relations
-
-#### video relation widgets
-Here the project context is, that we have the beehives and record how much percent from what field is consumed.
-
-- we can add new references and new fields here and connect existing ones
-- The relation widgets like you know them from QGIS just optimized for mobile use
-
 ### Camera, file and interactive widgets (qml, html)
 
 #### video camera and pdf
@@ -151,6 +143,14 @@ With the QML and HTML widget the user is very flexible to display information.
 #### video multi editing
 Mentioned it before. 
 - With the multi editing you can be very efficient.
+
+### Relations
+
+#### video relation widgets
+Here the project context is, that we have the beehives and record how much percent from what field is consumed.
+
+- we can add new references and new fields here and connect existing ones
+- The relation widgets like you know them from QGIS just optimized for mobile use
 
 ### Map Themes
 #### video map themes
@@ -202,12 +202,12 @@ We are **heavily testing QField Cloud** and you can join us soon as a **beta tes
 QFieldCloud takes care about all the data pushed from different workers on the field.*
 
 ## iOS Support
-Btw: QField runs on iOS, it's just not yet released. We will keep you up to date.
+Btw: Spoiler Alert. QField runs on iOS - it's just not yet released. We will keep you up to date.
 
 ## Release info
 This is the current release is 1.7.6
 
-QField is **widely used**, **300 Thousands of downloads**.
+QField is **widely used** - we have **300 Thousands of downloads**.
 
 **To check up the latest stuff, become a Beta Tester**.
 
