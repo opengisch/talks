@@ -19,8 +19,9 @@ Everything we do - whenever possible -  we release with **open source** license.
 
 *We do QGIS, QField, PostGIS, Android, Ili2DB, Webmapping ... Training, consultancy and maintenance.*
 
-
-(0.5 Min)
+```
+0.5 Min
+```
 
 
 ## Why QField
@@ -35,9 +36,9 @@ And **all they want to be is efficient**. They want to **go home soon, packed wi
 
 The **missing bit on QGIS** is, that it's not mobile. And thats why QField is the ideal side-kick. It's **QGIS made for tablets**: And this means, it's made for the **efficient mobile data collection**.
 
-
-(1.5 Min)
-
+```
+1.5 Min
+```
 
 ### Minimalist UI
 
@@ -84,8 +85,9 @@ Currently we are implementing an interface directly communicating with the Emlid
 
 We have a cloud sollution getting off the starting block. It's to **exchange your projects and data packages** between your mobile devices and your office.
 
-(4.5 Min)
-
+```
+4.5 Min
+```
 
 ## What can you do with QField
 
@@ -109,9 +111,11 @@ The field workers **have nothing to do with all the configuration**. They just c
 
 When they finished, they give back the data. Means a simple click to **push to the Cloud** or they **give the datapackage back to the teamleader**, who synchronizes the data easily with QFieldSync.
 
-(5.5 Min)
+```
+5.5 Min
+```
 
-## What is in QGIS
+## What is in QField
 
 ### Powerfull forms
 
@@ -187,9 +191,12 @@ Mentioned it before.
 - Use the layer layouts configured in QGIS. *If you have some, the option is there - otherwise not.*
 - Print to PDF
 
+```
+15.5 Min
+```
 
 ## Cloud
-We are **heaviling testing QField Cloud** and you can join us soon as a **beta tester**. It will come into beta in this year so you can test it while your Christmas.
+We are **heavily testing QField Cloud** and you can join us soon as a **beta tester**. It will come into beta in this year so you can test it while your Christmas.
 
 *It actually working similar to the well known offline editing, just that you can synchronize whenever you want, you don't have to bring the data back to the office. 
 QFieldCloud takes care about all the data pushed from different workers on the field.*
@@ -207,7 +214,7 @@ QField is **widely used**, **300 Thousands of downloads**.
 *If you have spare time, mention some stuff that could come one time, like: CAD computer-aided drafting implementation, Networkstate based, Humidity etc. sensors...)*
 
 ## Join the efford
-*So dont hestitate. It's open source, it's a great tool and you will be in good company by a lot of other users.*
+**So dont hestitate. It's open source, it's a great tool and you will be in good company by a lot of other users.**
 
 If you like it, then:
 - Help us by telling us your story, show us how you use QField.
@@ -218,5 +225,8 @@ We are happy about any kind of support.
 
 ## Custom app
 And if you need something much more specific - invest in your custom app
-We can obviously QField and create a version especially for you.
+We can obviously create a version especially for you.
 
+```
+17.5 Min
+```
