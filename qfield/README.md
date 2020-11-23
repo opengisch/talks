@@ -4,54 +4,69 @@ This notes should contain what you can - but not must - tell for each slide.
 
 ## QField - Because data is outside
 
-Welcome everybody. Let's talk about QField
+Welcome everybody to my presentation about QField.
+
+We don't have much time, so let's move on.
 
 ### That's me
 
-I'm .... I'm working for OPENGIS.ch. I do ...
+I'm ... I'm working for OPENGIS.ch as a ... *I'm doing ...*
 
 ### Open source geoninjas
 At OPENGIS.ch we are **nine Geo-spatial Experts** located in **Switzerland**.
 
 Everything we do - whenever possible -  we release with **open source** license.
 
-We do QGIS, QField, PostGIS, Android, Ili2DB, Webmapping ... Training, consultancy and maintenance.
+*We do QGIS, QField, PostGIS, Android, Ili2DB, Webmapping ... Training, consultancy and maintenance.*
 
-## Why QField - Because data is outside
 
-Sometimes we have sensors, that deliver data. But mostly we have people that need to go outside and collect data sometimes in bad weather conditions.
+(0.5 Min)
+
+
+## Why QField
+
+Because data is outside.
+
+Sometimes we have sensors, that deliver data (to QGIS). But mostly we have brave people that need to go outside and collect data in **bad weather conditions** *(knee-deep in the mud :-))* 
+
+And **all they want to be is efficient**. They want to **go home soon, packed with the collected data**.
 
 ## What is QField
 
 The **missing bit on QGIS** is, that it's not mobile. And thats why QField is the ideal side-kick. It's **QGIS made for tablets**: And this means, it's made for the **efficient mobile data collection**.
 
+
+(1.5 Min)
+
+
 ### Minimalist UI
 
-**It's based on some principles**.
+**QField is based on some principles**.
 
 First thing, is that we want to keep the UI **intuitive and simple**.
 
-Everytime when we want to introduce a new button, we have big discussions, if that button really needs to be there. Because on the field you don't want fool around buttons you don't need, just want to be efficient.
+Everytime when we want to introduce a new button, we have big discussions, if that button really needs to be there. Because **on the field you don't want fool around button** you don't need, just want to be efficient.
 
 ### Beautiful cartography
 
 We want to allow people to use beautyful cartography.
 
-We are using the **full QGIS rendering engine** - if it looks good in QGIS, they it will look good in QField as well.
+We are using the **full QGIS rendering engine** - if your map looks good in QGIS, they it will look good in QField as well.
 
 ### Powerful tools
 
 Just because we want to **keep the UI simple, this does not mean it's lacking of tools**.
 
-We just show the tools only, if they are really needed. 
+We **just show the tools only, if they are really needed**. 
 
-What you see here in the background is the **editing mode**, where you have a button on top left for **topological editing, bottom right the controll buttons and the ones for enabling GPS**.
+*What you see here in the background is the **editing mode**, where you have a button on top left for **topological editing, bottom right the controll buttons and the ones for enabling GPS**.*
 
 ### Efficient interaction
 
-When you are out in the freezing wheater, you **want to be efficient**.
+And like I said - if you are out in the freezing wheater, you **want to be efficient**.
 
-So QField does provide the functionalities to be it. Like here in the background, you can **select mulitiple features**, and with the top right button you can **edit them all at the same time**. Or another example is the **remember value function**. Means when you create a feature and enter an attribute value you want to keep for the next features as well, it's a simple checkbox activation to achieve that.
+So QField does provide the **functionalities for beeing so**. Like here in the background, you can **select mulitiple features**, and with the top right button you can **edit them all at the same time** - we will see a movie about it later on.
+*Another example is the **remember value function**. Means when you create a feature and enter an attribute value you want to keep for the next features as well, it's a simple checkbox activation to achieve that.*
 
 
 ### Beneficial integration
@@ -61,26 +76,28 @@ This makes your life much easier.
  
 ### Professional hardware
 
-**Professional hardware makers are starting to deliver cool android devices**. And this Trimple device is one we are currently testing. 
+**Professional hardware makers are starting to deliver cool android devices**. On these devices you have a **better reception** and you can use an **external GNSS antenna**.
+We are **working together with companies like Emlid or Trimble**.
+Currently we are implementing an interface directly communicating with the Emlid Reach NMEA recevier. 
 
-On these devices you have a **better reception** and you can use an **external GNSS antenna**. So this setup on the picture is working and we are **working together with companies like Emlid or Trimble** to get the best fit between their hardware and QField.  
- 
 ### Cloud
 
-QFieldCloud is ready and in internal testing phase. It will come into beta in this year so you can test it while your Christmas.
-It's to exchange your projects and data packages between your mobile devices and your office.
+We have a cloud sollution getting off the starting block. It's to **exchange your projects and data packages** between your mobile devices and your office.
+
+(4.5 Min)
+
 
 ## What can you do with QField
 
-We go quickly through the workflow.
+**Let's quickly through the workflow.**
 
-We seperate the project configurator and the endusers "the veggie team" that use the preconfigured project and go out into the storm.
+It mainly **seperates the project configurator and the fieldworkers**. The "veggie team" reveives the preconfigured project and can go out into the field / storm.
 
 ### Comfortably prepare the work on your QGIS Desktop
 
-**Prepare it on QGIS and QFieldSync**. Usually a team leader does that and the field workers have nothing to do with it.
+The team leader **prepares it on QGIS and QFieldSync**. And the **field workers have nothing to do with it**.
 
-The team leader decides what layer she wants to have handled offline or over the cloud, what layers needs to be ignored or which ones are connected directly to the database. Then there are additional settings like the path for the images etc.
+*The team leader decides what layer she wants to have handled offline or over the cloud, what layers needs to be ignored or which ones are connected directly to the database. Then there are additional settings like the path for the images etc.*
 
 Then she uploads the project to the cloud or - **because of course it's not mandatory to use the cloud** - she copies it to the device just with an USB-cable.
 
@@ -90,15 +107,19 @@ The field workers **have nothing to do with all the configuration**. They just c
 
 ### Seamlessly syncronize on the device...
 
-When they finished, they give back the data. Means a simple click to **push to the Cloud** or they give the datapackage back to the teamleader, who synchronizes the data easily with QFieldSync.
+When they finished, they give back the data. Means a simple click to **push to the Cloud** or they **give the datapackage back to the teamleader**, who synchronizes the data easily with QFieldSync.
+
+(5.5 Min)
 
 ## What is in QGIS
 
 ### Powerfull forms
 
 #### video form_widgets
-- Widgets like Value Map, Range Slider
-- Soft and Hard constraints - evt. mention remember attributes function
+- Widgets like Value Map, Range Slider like you know it in QGIS
+- Constraints for a fist valdation of your data
+- On numeric values you recveive the numeric keyboard
+- *mention remember attributes function*
 
 #### video conditional_visibility
 - Coonditional visibility
@@ -106,85 +127,96 @@ When they finished, they give back the data. Means a simple click to **push to t
 ### Relations
 
 #### video relation widgets
-Here the project context is, that we have the beehives and record how much persent from what field is consumed...
-- Relation Editor Widget
-- Relation Reference Widget
+Here the project context is, that we have the beehives and record how much percent from what field is consumed.
+
+- we can add new references and new fields here and connect existing ones
+- The relation widgets like you know them from QGIS just optimized for mobile use
 
 ### Camera, file and interactive widgets (qml, html)
 
 #### video camera and pdf
-- Foto with camera
-- Open an attached pdf
+- Camera functionality (*here the video recorder app acted weirdly - but QField stayed in landscape mode*)
+- And we can open an attached PDF file
 
 #### video qml and html
-- check out fancy qml charts
-- check out interactive html widget
+With the QML and HTML widget the user is very flexible to display information.
+- Fancy Chart based on current values
+- Interactive panel made by the user0 with HTML
 
 ### Multi Edit
 #### video multi editing
-- multi editing
+Mentioned it before. 
+- With the multi editing you can be very efficient.
 
 ### Map Themes
 #### video map themes
-How to use **layer visibility** and **map themes**.
-Like you see it's what you expect from QGIS here as well.
+- Choose the layout defined by Map Themes
+- What you expect from QGIS here as well
 
 ### Search
 #### video search
-- coordinate search
-- search for feature according an attribute
+- Search for features according an attribute
+- Or search for coordinates
 
 ### Measure 
 #### video measure
-- pleasure you can't measure
+- Measuring tool for all the polygons.
 
 ### Edit geometry and use topological editing
 #### video edit_geom
--
+- Split geometry
+- Merge them back again
+- Change geometries by selecting the vertex and move it
+- Cut out a part and fill it with a new feature or not
 
 #### video edit_topo
--
+- Snap to existing verteces and edges
+- Move a vertex and the snapped vertex of another feature is moved as well
 
 ### GPS Tracking
 ### video tracking
-- You can track wherever you going
-
-mention compass, Z values, antenna height correction
+- Track wherever you going
+- Stuff like compass, Z vlaues and antenna height correction
+- Seamless integration to external devices like e.g. Emlid Reach
 
 ### Freehand drawing
 (not yet here)
 
 ### Print PDF
 #### video print pdf
-QField uses the layer layouts configured in QGIS. If you have some, the option is there.
-Print to PDF and fine. **Print it with external app**
+- Use the layer layouts configured in QGIS. *If you have some, the option is there - otherwise not.*
+- Print to PDF
 
-## iOS Support
-QField runs on iOS, it's just not yet released.
 
 ## Cloud
-We are heaviling testing QField Cloud and you can join us soon as well as a beta tester.
-It actually working similar to the well known offline editing, just that you can synchronize whenever you want, you don't have to bring the data back to the office.
-QFieldCloud takes care about all the data pushed from different workers on the field.
+We are **heaviling testing QField Cloud** and you can join us soon as a **beta tester**. It will come into beta in this year so you can test it while your Christmas.
 
+*It actually working similar to the well known offline editing, just that you can synchronize whenever you want, you don't have to bring the data back to the office. 
+QFieldCloud takes care about all the data pushed from different workers on the field.*
+
+## iOS Support
+Btw: QField runs on iOS, it's just not yet released. We will keep you up to date.
 
 ## Release info
-QField is widely used, 300 Thousands of downloads on android and apple is coming
-This is the current release is 1.7.5
-Become a beta tester to check out the latest stuff.
+This is the current release is 1.7.6
 
-(If you have spare time, mention some stuff that could come one time, like: CAD computer-aided drafting implementation, Networkstate based, Humidity etc. sensors...)
+QField is **widely used**, **300 Thousands of downloads**.
+
+**To check up the latest stuff, become a Beta Tester**.
+
+*If you have spare time, mention some stuff that could come one time, like: CAD computer-aided drafting implementation, Networkstate based, Humidity etc. sensors...)*
 
 ## Join the efford
-So dont hestitate. It's open source, it's a great tool and you will be in good company by a lot of other users.
+*So dont hestitate. It's open source, it's a great tool and you will be in good company by a lot of other users.*
 
 If you like it, then:
 - Help us by telling us your story, show us how you use QField.
-- Become a beta tester and report bugs
+- Become a beta tester and report bugs - and have the nice features before everyone else
 - Fix bugs and bring your inputs
 - Finance bug fixing and awesome new ideas
 We are happy about any kind of support.
 
 ## Custom app
-If you need something more specific - invest in your custom app
-We can obviously customize QField and create a version especially for you
+And if you need something much more specific - invest in your custom app
+We can obviously QField and create a version especially for you.
+
