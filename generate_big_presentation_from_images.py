@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 # ##################################################
 # Script to generate big.js slides with title from a set of images
 # an image called
@@ -20,7 +20,7 @@
 import os
 import sys
 
-
+ORDER_DESCENDING = False
 ALLOWED_EXTENTIONS = ['png', 'jpg']
 
 # use DIRECTORY from command line args
@@ -58,12 +58,12 @@ def generate_title(filename):
     return title.capitalize()
 
 
-def main():
-    dirs = sorted(os.listdir(DIRECTORY))
+def main(reverse=True):
+    dirs = sorted(os.listdir(DIRECTORY), reverse=reverse)
     for filename in dirs:
         if is_allowed(filename):
             title = generate_title(filename)
             html = HTML_TEMPLATE % (filename, title)
             print (html)
 
-main()
+main(ORDER_DESCENDING)
