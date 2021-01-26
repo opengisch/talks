@@ -8,31 +8,40 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body class="with_logo normal_spacing">
-<h2>Anatomy of a webmap</h2>
-    <ul>
-    <li><a href="anatomy-of-a-web-map/intro.html">intro</a></li>
-    <li><a href="anatomy-of-a-web-map/outro.html">outro</a></li>
-        <li><a href="wmts">wmts</a></li>
 
-    <li><a href="https://github.com/opengisch/talks/tree/gh-pages/anatomy-of-a-web-map">code</a></li>
-    </ul>
-<h2>QGIS</h2>
-    <ul>
-    <li><a href="qgis3/qgis3.html">intro</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qgis3">code</a>)</li>
-    <li><a href="https://gitpitch.com/opengisch/talks/gh-pages?p=qgis3-whatsnew">What's new</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qgis3-whatsnew">code</a>)</li>
-        <li><a href="qgis.org/">QGIS.org</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qgis.org">code</a>)</li>
-    </ul>
-<h2>QField</h2>
-    <ul>
-    <li><a href="qfield/">Features presentation</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qfield">code</a>)</li>
-    <li><a href="qfield-workshop/">workshop</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qfield-workshop">code</a>)</li>
-    <li><a href="field-to-web-via-qgis/">Field to web via QGIS</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/field-to-web-via-qgis">code</a>)</li>
-    </ul>
 <h2>OPENGIS.ch</h2>
     <ul>
     <li><a href="about-us/index.html">about us</a></li>
     <li><a href="about-us/team">the team</a></li>
-    <li><a href="https://github.com/opengisch/talks/tree/gh-pages/about-us">code</a></li>
     </ul>
+<h2>Highlights</h2>
+<ul>
+    <li><a href="qfield/">QField Features presentation</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qfield">code</a>)</li>
+    <li><a href="qfield-workshop/">QField workshop</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qfield-workshop">code</a>)</li>
+    <li><a href="qfieldcloud/">QFieldCloud Features presentation</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qfieldcloud">code</a>)</li>
+</ul>
+
+<h2>All talks</h2>
+<a href="https://github.com/opengisch/talks/">source code of all presentations is available on github</a>
+<script>
+    (async () => {
+        const path = '/'
+        const response = await fetch('https://api.github.com/repos/opengisch/talks/contents' + path);
+        const data = await response.json();
+        let htmlString = '<ul>';
+        for (let file of data) {
+            if (file.type !== 'dir' ) {
+                continue;
+            }
+            let file_name = file.name;
+
+            htmlString += `<li><a href="${file_name}">${file_name}</a></li>`;
+        }
+        htmlString += '</ul>';
+        document.getElementsByTagName('body')[0].innerHTML = htmlString;
+    })()
+
+</script>
+
 </body>
 </html>
