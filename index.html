@@ -16,13 +16,13 @@
     </ul>
 <h2>Highlights</h2>
 <ul>
-    <li><a href="qfield/">QField Features presentation</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qfield">code</a>)</li>
-    <li><a href="qfield-workshop/">QField workshop</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qfield-workshop">code</a>)</li>
-    <li><a href="qfieldcloud/">QFieldCloud Features presentation</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qfieldcloud">code</a>)</li>
+    <li><a href="qfield/">QField Features presentation</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qfield">source</a>)</li>
+    <li><a href="qfield-workshop/">QField workshop</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qfield-workshop">source</a>)</li>
+    <li><a href="qfieldcloud/">QFieldCloud Features presentation</a>(<a href="https://github.com/opengisch/talks/tree/gh-pages/qfieldcloud">source</a>)</li>
 </ul>
 
 <h2>All talks</h2>
-<a href="https://github.com/opengisch/talks/">source code of all presentations is available on github</a>
+The source code of all presentations is available on <a href="https://github.com/opengisch/talks/">github</a>
 <ul id="all-talks"></ul>
 <script>
     (async () => {
@@ -38,7 +38,8 @@
             }
             let file_name = file.name;
 
-            htmlString += `<li><a href="${file_name}">${file_name}</a></li>`;
+            htmlString += `<li><a href="${file_name}">${file_name}</a>`;
+            htmlString += `&nbsp;<a href="https://github.com/opengisch/talks/tree/gh-pages/"${file_name}>(source)</a></li>`;
         }
         document.getElementById('all-talks').innerHTML = htmlString;
     })()
