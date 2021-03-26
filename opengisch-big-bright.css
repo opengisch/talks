@@ -7,6 +7,10 @@ body {
   background-size: cover;
 }
 
+body.blue_bg {
+  background-color: #2880cc;
+}
+
 body.with_logo {
     background-image: url("images/copyrighted/openGIS-logo-round-green-no-text-bg-cut-white.svg");
     
