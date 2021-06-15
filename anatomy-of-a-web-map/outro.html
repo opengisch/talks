@@ -10,7 +10,7 @@
 <div>Exception #1: Can’t interact with many features on a raster. BUT <a href="https://www.mapbox.com/blog/how-interactivity-works-utfgrid/">UTFGrid</a> (Mapbox invention) makes it possible.</div>
 <div style="color: black"><img src="../images/utfgrid.png">UTFGrid is an invisble tile layer made up of arbitrary letters which are indexes into the clickable data</div>
 <div>DEMO <a href="https://platform.openquake.org/grv/">Global risk viewer</a></div>
-<div>DEMO <a href="https://amenazasismica.sgc.gov.co/map/co18_results_rock_grid/">Geoviewer</a></div>
+<div>DEMO <a href="http://bl.ocks.org/milkbread/6449317">MapBox</a></div>
 
 <div>Exception #2: Tiles are always rasters <em>except</em> when they're not!</div>
 <div><img src="../images/vector_tiles.png"><em>vector tiles!</em> What are they?</div>
@@ -37,8 +37,6 @@ Loading from local GeoJson: 1.62 s<br/>
 Loading protocol buffer from TileLive: 161 ms
 </div>
 
-<div>DEMO <a href="https://platform-dev-mb.openquake.org/irv/">Integrated risk viewer</a></div>
-
 <div>Exception #3: <a href="http://d3js.org">D3</a> exists outside the world of tiles</div>
 <div>you can’t easily make road map in D3 <em>BUT</em> can do things that are clumsy in slippy maps like...</div>
 <div style="color: black"><img src="../images/d3-examples/d3_choropleth.png">choropleth maps</div>
@@ -50,12 +48,15 @@ Loading protocol buffer from TileLive: 161 ms
 <div style="color: black"><img src="../images/d3-examples/drought.png">SANE</div>
 <div>Very powerful, but steepish learning curve</div>
 
-<div>Going big<br><a href="http://postgis.net">Postgis</a><br/><a href="http://geoserver.org/">Geoserver</a><br/><a href="http://geonode.org/">Geonode</a><br/>many other <a href="http://www.osgeo.org/">OSGeo projects</a></div>
+<div>Going big<br><a href="http://postgis.net">Postgis</a><br/><a href="http://qgis.org/">QGIS Server</a><br/><a href="http://geoserver.org/">geoserver</a><br/><a href="http://geonode.org/">Geonode</a><br/>many other <a href="http://www.osgeo.org/">OSGeo projects</a></div>
 <div><em>Postgis</em> is a spatial database extender for PostgreSQL object-relational database.</div>
-<div><em>Geoserver</em> is an open source server for sharing geospatial data</div>
+<div><em>QGIS Server</em> is an open source server for serving OGC services</div>
+<div><em>Geoserver</em> is an open source server for sharing geospatial data</div>Geoserver
 <div><em>Geonode</em> is an Open Source Geospatial Content Management System</div>
+<div><em> QGIS Web Client 2</em> is an Open Source Geospatial Content Management System</div>
 
 <div>DEMO <a href="https://platform.openquake.org/">Openquake platform</a></div>
+<div>DEMO <a href="https://geo.so.ch/map/">Geoportal Solothurn</a></div>
 <div><em>Questions?</em><br/><br/>Now or later<br/><br/>
     <a href="http://twitter.com/mbernasocchi">@mbernasocchi</a> <a href="http://twitter.com/_mkuhn">@_mkuhn</a>
     <br/>[<a href="mailto:marco@opengis.ch">marco</a> | <a href="mailto:matthias@opengis.ch">matthias</a>]@opengis.ch
