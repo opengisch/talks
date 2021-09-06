@@ -189,6 +189,16 @@ Here the project context is, that we have the beehives and record how much perce
 - Use the layer layouts configured in QGIS. *If you have some, the option is there - otherwise not.*
 - Print to PDF
 
+### Autocomplete mode
+
+### Opening of individual vector/raster datasets
+
+### Ordered releation editor support
+
+###  'Live' default value updates when editing features
+
+### NMEA Receiver
+
 ```
 15.5 Min
 ```
