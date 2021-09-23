@@ -77,11 +77,11 @@ This makes your life much easier.
 
 **Professional hardware makers are starting to deliver cool android devices**. On these devices you have a **better reception** and you can use an **external GNSS antenna**.
 We are **working together with companies like Emlid or Trimble**.
-Currently we are implementing an interface directly communicating with the Emlid Reach NMEA recevier. 
+For exampley you can connect to the Emlid Reach NMEA recevier directly without using any third party apps.
 
 ### Cloud
 
-We have a cloud sollution. It's to **exchange your projects and data packages** between your mobile devices and your office. *It actually working similar to the well known offline editing, just that you can synchronize whenever you want, you don't have to bring the data back to the office and it takes care about all the data pushed from different workers on the field.*
+We have a cloud sollution. It's to **exchange your projects and data packages** between your mobile devices and your office. You can synchronize whenever you want from wherever you are and it takes care about all the data pushed from you and your colleages directly from the field.*
 
 ```
 4.5 Min
@@ -95,7 +95,7 @@ It mainly **seperates the project configurator and the fieldworkers**. The "vegg
 
 ### Comfortably prepare the work on your QGIS Desktop
 
-The team leader **prepares it on QGIS and QFieldSync**. And the **field workers have nothing to do with it**.
+The team leader **prepares it on QGIS and QFieldSync**. 
 
 *The team leader decides what layer she wants to have handled offline or over the cloud, what layers needs to be ignored or which ones are connected directly to the database. Then there are additional settings like the path for the images etc.*
 
@@ -201,15 +201,16 @@ In case you have long lists in your drop down using Relation Reference or Value 
 - Seamless integration to external devices like e.g. Emlid Reach
 ### video NMEA receiver
 You can connect external receivers like the Emlid Reach rs2 via bluetooth without the need of third party software.
-### Freehand drawing
-If your device works with a stylus pen, you can use it for the freehand digitizing.
+
 ### Print PDF
 #### video print pdf
 - Use the layer layouts configured in QGIS. *If you have some, the option is there - otherwise not.*
 - Select the features to consider it in the Atlas print to PDF
 
+### Freehand drawing
+If your device works with a stylus pen, you can use it for the freehand digitizing.
 ```
-15.5 Min
+18.5 Min
 ```
 
 ## Cloud
@@ -242,5 +243,5 @@ And if you need something much more specific - invest in your custom app
 We can obviously create a version especially for you.
 
 ```
-17.5 Min
+20.5 Min
 ```
