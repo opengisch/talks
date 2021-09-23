@@ -11,7 +11,7 @@ Welcome everybody to my presentation about QField.
 I'm ... I'm working for OPENGIS.ch as a ... *I'm doing ...*
 
 ### Open source geoninjas
-At OPENGIS.ch we are **nine Geo-spatial Experts** located in **Switzerland**.
+At OPENGIS.ch we are **13 Geo-spatial Experts** located in **Switzerland**.
 
 Everything we do - whenever possible -  we release with **open source** license.
 
@@ -81,7 +81,7 @@ Currently we are implementing an interface directly communicating with the Emlid
 
 ### Cloud
 
-We have a cloud sollution getting off the starting block. It's to **exchange your projects and data packages** between your mobile devices and your office.
+We have a cloud sollution. It's to **exchange your projects and data packages** between your mobile devices and your office. *It actually working similar to the well known offline editing, just that you can synchronize whenever you want, you don't have to bring the data back to the office and it takes care about all the data pushed from different workers on the field.*
 
 ```
 4.5 Min
@@ -107,7 +107,7 @@ The field workers **have nothing to do with all the configuration**. They just c
 
 ### Seamlessly syncronize on the device...
 
-When they finished, they give back the data. Means a simple click to **push to the Cloud** or they **give the datapackage back to the teamleader**, who synchronizes the data easily with QFieldSync.
+When they finished, they give back the data. Means, they **give the datapackage back to the teamleader**, who synchronizes the data easily with QFieldSync or - much cooler - do a simple click to **push to the Cloud**. 
 
 ```
 5.5 Min
@@ -126,6 +126,9 @@ When they finished, they give back the data. Means a simple click to **push to t
 #### video conditional_visibility
 - Coonditional visibility
 
+#### video default update
+- Default values are updated on the fly
+
 ### Camera, file and interactive widgets (qml, html)
 
 #### video camera and pdf
@@ -135,9 +138,10 @@ When they finished, they give back the data. Means a simple click to **push to t
 #### video qml and html
 With the QML and HTML widget the user is very flexible to display information.
 - Fancy Chart based on current values
-- Interactive panel made by the user0 with HTML
+- Interactive panel made by the user with HTML
 
 ### Multi Edit
+
 #### video multi editing
 Mentioned it before. 
 - With the multi editing you can be very efficient.
@@ -150,6 +154,21 @@ Here the project context is, that we have the beehives and record how much perce
 - we can add new references and new fields here and connect existing ones
 - The relation widgets like you know them from QGIS just optimized for mobile use
 
+#### video ordered relation widgets
+And what the Ordered Relation Editor Plugin in QGIS does, is supported in QField as well.
+You have roadsigns on a pole and when you change the order, you can use that for the arrangement of the symbols.
+
+#### video auto complete
+In case you have long lists in your drop down using Relation Reference or Value Relation Widgets an autocompletion is provided.
+
+### Opening of individual datasets
+#### video opening vector dataset
+- It's possible to open datasources directly without having a QGIS project. 
+- Datasource defined constraints are considered here. 
+- Form widgets are recognized considering the datatype of the fields.
+#### video opening raster dataset
+- And raster data is possible to view as well considering it's georefernce
+*you can set a QGIS project as basemap*
 ### Map Themes
 #### video map themes
 - Choose the layout defined by Map Themes
@@ -180,42 +199,29 @@ Here the project context is, that we have the beehives and record how much perce
 - Track wherever you going
 - Stuff like compass, Z vlaues and antenna height correction
 - Seamless integration to external devices like e.g. Emlid Reach
-
+### video NMEA receiver
+You can connect external receivers like the Emlid Reach rs2 via bluetooth without the need of third party software.
 ### Freehand drawing
-(not yet here)
-
+If your device works with a stylus pen, you can use it for the freehand digitizing.
 ### Print PDF
 #### video print pdf
 - Use the layer layouts configured in QGIS. *If you have some, the option is there - otherwise not.*
-- Print to PDF
-
-### Autocomplete mode
-
-### Opening of individual vector/raster datasets
-
-### Ordered releation editor support
-
-###  'Live' default value updates when editing features
-
-### NMEA Receiver
+- Select the features to consider it in the Atlas print to PDF
 
 ```
 15.5 Min
 ```
 
 ## Cloud
-We are **heavily testing QField Cloud** and you can join us soon as a **beta tester**. It will come into beta in this year so you can test it while your Christmas.
+Cloud is in beta and coming very, very soon. There has been already a presentation earlier today about it, if missed it, check out the recordings.
 
-*It actually working similar to the well known offline editing, just that you can synchronize whenever you want, you don't have to bring the data back to the office. 
-QFieldCloud takes care about all the data pushed from different workers on the field.*
-
-## iOS Support
-Btw: Spoiler Alert. QField runs on iOS - it's just not yet released. We will keep you up to date.
+## iOS and Windows Support
+QField runs not only on Android. Versions for Windows and iOS are in beta as well. Check it out and have nice testing.
 
 ## Release info
-This is the current release is 1.7.6
+This is the current release is 1.9.6.
 
-QField is **widely used** - we have **300 Thousands of downloads**.
+QField is **widely used** - we have **400 Thousands of downloads**.
 
 **To check up the latest stuff, become a Beta Tester**.
 
