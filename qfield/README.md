@@ -6,12 +6,11 @@ This notes should contain what you can - but not must - tell for each slide.
 
 Welcome everybody to my presentation about QField. 
 
-### That's me
-
-I'm ... I'm working for OPENGIS.ch as a ... *I'm doing ...*
-
 ### Open source geoninjas
-At OPENGIS.ch we are **13 Geo-spatial Experts** located in **Switzerland**.
+
+I'm ... I'm a ... and ... at OPENGIS.ch.
+
+We are **13 Geo-spatial Experts** located in **Switzerland**.
 
 Everything we do - whenever possible -  we release with **open source** license.
 
@@ -24,7 +23,7 @@ Everything we do - whenever possible -  we release with **open source** license.
 
 ## Why QField
 
-Because data is outside.
+So why QField? - Because data is outside.
 
 Sometimes we have sensors, that deliver data (to QGIS). But mostly we have brave people that need to go outside and collect data in **bad weather conditions** *(knee-deep in the mud :-))* 
 
@@ -32,7 +31,7 @@ And **all they want to be is efficient**. They want to **go home soon, packed wi
 
 ## What is QField
 
-The **missing bit on QGIS** is, that it's not mobile. And thats why QField is the ideal side-kick. It's **QGIS made for tablets**: And this means, it's made for the **efficient mobile data collection**.
+The **missing bit on QGIS** is, that it's not mobile. And that's why QField is the ideal side-kick. It's **QGIS made for tablets**: And this means, it's made for the **efficient mobile data collection**.
 
 ```
 1.5 Min
@@ -218,7 +217,7 @@ You can connect external receivers like the Emlid Reach rs2 via bluetooth withou
 Cloud is in beta and coming very, very soon. There has been already a presentation earlier today about it, if missed it, check out the recordings.
 
 ## iOS and Windows Support
-QField runs not only on Android. Versions for Windows and iOS are in beta as well. Check it out and have nice testing.
+As well coming soon is the Windows Version. It's in beta as well as the iOS version. So ceck it out and have nice testing.
 
 ## Release info
 This is the current release is 1.9.6.
