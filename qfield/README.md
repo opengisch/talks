@@ -194,6 +194,9 @@ In case you have long lists in your drop down using Relation Reference or Value 
 - Snap to existing verteces and edges
 - Move a vertex and the snapped vertex of another feature is moved as well
 
+#### video freehand drawing
+If your device works with a stylus pen, you can use it for the freehand digitizing.
+
 ### GPS Tracking
 ### video tracking
 - Track wherever you going
@@ -207,8 +210,6 @@ You can connect external receivers like the Emlid Reach rs2 via bluetooth withou
 - Use the layer layouts configured in QGIS. *If you have some, the option is there - otherwise not.*
 - Select the features to consider it in the Atlas print to PDF
 
-### Freehand drawing
-If your device works with a stylus pen, you can use it for the freehand digitizing.
 ```
 18.5 Min
 ```
