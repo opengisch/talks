@@ -31,7 +31,7 @@ And **all they want to be is efficient**. They want to **go home soon, packed wi
 
 ## What is QField
 
-The **missing bit on QGIS** is, that it's not mobile. And that's why QField is the ideal side-kick. It's **QGIS made for tablets**: And this means, it's made for the **efficient mobile data collection**.
+The **missing bit on QGIS** is, that it's not mobile. And that's why QField is the ideal side-kick. It's **QGIS made for tablets**: And this means, it's made for the **mobile data collection**.
 
 ```
 1.5 Min
@@ -43,8 +43,7 @@ The **missing bit on QGIS** is, that it's not mobile. And that's why QField is t
 
 First thing, is that we want to keep the UI **intuitive and simple**.
 
-Everytime when we want to introduce a new button, we have big discussions, if that button really needs to be there. Because **on the field you don't want fool around button** you don't need, just want to be efficient.
-
+Everytime when we want to introduce a new button, we have big discussions, if that button really needs to be there. Because **on the field you don't want fool around with an overloaded screen** with buttons you don't need.
 ### Beautiful cartography
 
 We want to allow people to use beautyful cartography.
@@ -61,7 +60,7 @@ We **just show the tools only, if they are really needed**.
 
 ### Efficient interaction
 
-And like I said - if you are out in the freezing wheater, you **want to be efficient**.
+And like I said - if you are out in the freezing wheater, you **want to be fast and effective**.
 
 So QField does provide the **functionalities for beeing so**. Like here in the background, you can **select mulitiple features**, and with the top right button you can **edit them all at the same time** - we will see a movie about it later on.
 *Another example is the **remember value function**. Means when you create a feature and enter an attribute value you want to keep for the next features as well, it's a simple checkbox activation to achieve that.*
