@@ -20,7 +20,7 @@ div.green_text, p.footer_title, span.green_text{
     color: #80CC28;
 }
 
-em, a {
+em, a, p.footer_title.blue {
   color:#2880cc;
 }
 
