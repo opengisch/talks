@@ -24,7 +24,7 @@ em, a, p.footer_title.blue {
   color:#2880cc;
 }
 
-a {
-  background: #2880cc;
-  color:#fff;
+a, p.blue {
+  background: #2880cc !important;
+  color:#fff !important;
 }
