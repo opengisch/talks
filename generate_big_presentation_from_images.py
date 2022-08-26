@@ -21,7 +21,7 @@ import os
 import sys
 
 ORDER_DESCENDING = False
-ALLOWED_EXTENTIONS = ['png', 'jpg']
+ALLOWED_EXTENTIONS = ['png', 'jpg', 'gif', 'webp']
 
 # use DIRECTORY from command line args
 try:
