@@ -16,7 +16,7 @@ body.with_logo {
     
 }
 
-div.green_text, p.footer_title, span.green_text{
+div.green_text, p.green_text, p.footer_title, span.green_text{
     color: #80CC28;
 }
 
