@@ -2,7 +2,7 @@
 
 body {
   font-family: "futura-pt", 'Helvetica';
-  letter-spacing:-5px;
+  letter-spacing:-1px;
   background-size: 100%;
   margin:0;
   padding:0;
@@ -35,6 +35,10 @@ em, a {
 
 blue_stroke {
   -webkit-text-stroke: 4px #2880cc; 
+}
+
+green_stroke {
+  -webkit-text-stroke: 4px #80CC28; 
 }
 
 a {
